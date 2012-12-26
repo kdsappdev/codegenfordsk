@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="atsdb_BBOX_CUSTWF" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="atsdb_BBOX_CUSTWF">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="RECORD" type="xs:string" minOccurs="0" />
+                <xs:element name="PAIR_SHORTNAME" type="xs:string" minOccurs="0" />
+                <xs:element name="LOCATION" type="xs:string" minOccurs="0" />
+                <xs:element name="KEYTYPE" type="xs:string" minOccurs="0" />
+                <xs:element name="WEGHTEDFACTOR" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PRIMARY" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <atsdb_BBOX_CUSTWF>
+    <RECORD>EURUSD=ICBC</RECORD>
+    <PAIR_SHORTNAME>EURUSD</PAIR_SHORTNAME>
+    <LOCATION>ICBC</LOCATION>
+    <KEYTYPE>EBS</KEYTYPE>
+    <WEGHTEDFACTOR>20</WEGHTEDFACTOR>
+    <PRIMARY>N</PRIMARY>
+  </atsdb_BBOX_CUSTWF>
+</NewDataSet>

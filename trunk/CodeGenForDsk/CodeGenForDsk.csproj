@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E6513DFF-B64A-4A67-A610-1BB91D1A16F6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CodeGenForDsk</RootNamespace>
+    <AssemblyName>CodeGenForDsk</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <ApplicationIcon>00052.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ManifestCertificateThumbprint>523147E8AEA7502FBA31925468F40CA36EDA7E01</ManifestCertificateThumbprint>
+    <ManifestKeyFile>CodeGenForDsk_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://ats.pingo/a.html/</InstallUrl>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.Utils.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraBars.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraEditors.v8.1, Version=8.1.1.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="Interop.Word, Version=8.3.0.0, Culture=neutral" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Data.SQLite, Version=1.0.66.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>CodeGenForDsk\lib\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CodeGenForDsk\CodeGenForDskGui.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CodeGenForDsk\CodeGenForDskGui.Designer.cs">
+      <DependentUpon>CodeGenForDskGui.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CodeGenForDsk\DataAccess\DbProvider\SqlLiteHelper.cs" />
+    <Compile Include="CodeGenForDsk\SqlForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CodeGenForDsk\SqlForm.Designer.cs">
+      <DependentUpon>SqlForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CodeGenForDsk\DataAccess\BaseDbHelper.cs" />
+    <Compile Include="CodeGenForDsk\DataAccess\DbFactory.cs" />
+    <Compile Include="CodeGenForDsk\DataAccess\DbProvider\MySqlHelper.cs" />
+    <Compile Include="CodeGenForDsk\DataAccess\DbProvider\OleDbHelper.cs" />
+    <Compile Include="CodeGenForDsk\DataAccess\DbProvider\OracleHelper.cs" />
+    <Compile Include="CodeGenForDsk\DataAccess\DbProvider\SqlHelper.cs" />
+    <Compile Include="CodeGenForDsk\DataAccess\IDbHelper.cs" />
+    <Compile Include="CodeGenForDsk\DBConfigForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CodeGenForDsk\DBConfigForm.Designer.cs">
+      <DependentUpon>DBConfigForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CodeGenForDsk\FxCop\FxCopAnalyzeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CodeGenForDsk\FxCop\FxCopAnalyzeForm.Designer.cs">
+      <DependentUpon>FxCopAnalyzeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CodeGenForDsk\Gen\AbstractGen.cs" />
+    <Compile Include="CodeGenForDsk\Gen\GenFactory.cs" />
+    <Compile Include="CodeGenForDsk\Gen\GenOptionInfo.cs" />
+    <Compile Include="CodeGenForDsk\Gen\GenProvider\GenMQTGSP.cs" />
+    <Compile Include="CodeGenForDsk\Gen\GenProvider\GenDbData.cs" />
+    <Compile Include="CodeGenForDsk\Gen\GenProvider\GenDbWord.cs" />
+    <Compile Include="CodeGenForDsk\Gen\GenProvider\GenDbModel.cs" />
+    <Compile Include="CodeGenForDsk\MdiPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CodeGenForDsk\MdiPanel.Designer.cs">
+      <DependentUpon>MdiPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CodeGenForDsk\ModelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CodeGenForDsk\ModelForm.Designer.cs">
+      <DependentUpon>ModelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CodeGenForDsk\Model\DbConfigInfo.cs" />
+    <Compile Include="CodeGenForDsk\Utils\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CodeGenForDsk\Utils\BaseUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CodeGenForDsk\Utils\BidictionaryMapping.cs" />
+    <Compile Include="CodeGenForDsk\Utils\CodeGenEnum.cs" />
+    <Compile Include="CodeGenForDsk\Utils\CodeGenHelper.cs" />
+    <Compile Include="CodeGenForDsk\Utils\DataTypeMappingHelper.cs" />
+    <Compile Include="CodeGenForDsk\Gen\IGen.cs" />
+    <Compile Include="CodeGenForDsk\Utils\FileHelper.cs" />
+    <Compile Include="CodeGenForDsk\Utils\FilePathHelper.cs" />
+    <Compile Include="CodeGenForDsk\Utils\INIConfigHelper.cs" />
+    <Compile Include="CodeGenForDsk\Utils\LogHelper.cs" />
+    <Compile Include="CodeGenForDsk\Utils\SqlDefHelper.cs" />
+    <Compile Include="CodeGenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CodeGenForm.Designer.cs">
+      <DependentUpon>CodeGenForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CodeGenForDsk\CodeGenForDskGui.resx">
+      <DependentUpon>CodeGenForDskGui.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CodeGenForDsk\SqlForm.resx">
+      <DependentUpon>SqlForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CodeGenForDsk\DBConfigForm.resx">
+      <DependentUpon>DBConfigForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CodeGenForDsk\FxCop\FxCopAnalyzeForm.resx">
+      <DependentUpon>FxCopAnalyzeForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CodeGenForDsk\ModelForm.resx">
+      <DependentUpon>ModelForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CodeGenForm.resx">
+      <DependentUpon>CodeGenForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="CodeGenForDsk_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="00052.ico" />
+    <Content Include="CodeGenForDsk\DataAccess\说明.txt" />
+    <Content Include="CodeGenForDsk\lib\Interop.Excel.dll" />
+    <Content Include="CodeGenForDsk\lib\Interop.Microsoft.Office.Core.dll" />
+    <Content Include="CodeGenForDsk\lib\Interop.VBIDE.dll" />
+    <Content Include="CodeGenForDsk\lib\Interop.Word.dll" />
+    <Content Include="CodeGenForDsk\lib\Microsoft.Vbe.Interop.dll" />
+    <Content Include="CodeGenForDsk\lib\office.dll" />
+    <Content Include="CodeGenForDsk\lib\System.Data.SQLite.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

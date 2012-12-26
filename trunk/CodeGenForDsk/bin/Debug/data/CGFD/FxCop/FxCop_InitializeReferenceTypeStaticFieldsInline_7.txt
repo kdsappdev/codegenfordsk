@@ -1,0 +1,10 @@
+在静态成员声明的时候直接初始化或者调用静态方法初始化（不要使用静态构造方法来初始化静态成员，静态构造方法会影响性能），以下情况除外：
+? 初始化对全局状态的影响是代价高昂的，而且类型在使用前不需要进行初始化的
+? 在不需要访问该类型的静态成员的情况下，全局状态的影响就可以被访问到的
+Atf.Plugin.MessgeCenter.MsgTip+MsgType
+Ats.Pingo.Common.BaseCommonService
+Atf.Plugin.Pingo.DataManager.AccountData.AcctHierarchy.HierarchyUtil
+Atf.Plugin.Pingo.Rp.CreditLimit.CreditLimitUsedReportGUI
+Atf.Plugin.Pingo.Rp.CreditLimit.ReportGUI
+Atf.Plugin.Pingo.Rp.CustomerProfit.ContributionReportGUI
+Atf.Plugin.Pingo.DealCapture.Utils.TypeOfEventHelper

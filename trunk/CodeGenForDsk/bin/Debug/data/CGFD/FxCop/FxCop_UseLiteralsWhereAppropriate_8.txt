@@ -1,0 +1,9 @@
+在适当的时候使用const代替static readonly（const是编译时赋值的）
+Atf.Frame.Workspace.TabControl
+Atf.Pingo.Utils.Instances.FilterKey
+Atf.Pingo.Utils.PassWordUtils.Password
+Atf.Pingo.Utils.Public.PassWordUtils.ConditionalRule
+Atf.Plugin.MessgeCenter.MsgTip+MsgType
+Atf.Plugin.Pingo.DataManager.AccountData.AcctHierarchy.HierarchyUtil
+Atf.Plugin.Pingo.DataManager.AccountData.AcctTable.DsManager
+Atf.Plugin.Pingo.CollateralManager.Blotter.CollateralBlotterCustomOption

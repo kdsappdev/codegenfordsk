@@ -1,0 +1,4 @@
+移除空的终结器
+Atf.Plugin.BasePlugin
+Atf.PowerSplitPanel.BasePanel
+Atf.PowerSplitPanel.SplitPanel
