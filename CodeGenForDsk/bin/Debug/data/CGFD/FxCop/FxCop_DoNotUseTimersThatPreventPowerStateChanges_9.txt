@@ -1,0 +1,10 @@
+
+Atf.Frame.BarControl.ConnectionStatusHandler
+Atf.Pingo.Utils.Alert.AlertHandler
+Atf.Plugin.MessgeCenter.MsgTip
+Atf.Plugin.Pingo.Pn.Forex.FxSpotPosition.FxSpotPositionGUI
+Atf.Plugin.Pingo.Pn.Forx.FxSwapPosition
+Atf.Plugin.Pingo.Revaluation.ExecuteMessage
+Atf.Plugin.Pingo.AcctManager.AcctBatch.BatchMsgUI
+Atf.Plugin.Pingo.AcctManager.AcctBatch.ExecuteMessage
+Atf.Plugin.Pingo.DealManager.DealBlotter.Object.NewDealsPool

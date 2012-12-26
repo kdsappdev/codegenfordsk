@@ -1,0 +1,5 @@
+使用锯齿形数组代替多维数组（当数组各元素的长度可能不一致时）
+注意：公共语言规范（CLS）不支持锯齿数组
+Atf.Plugin.Pingo.Rp.SAFE.FWDStatisticsBatch.FWDStatisticsBatchReport
+Atf.Plugin.Pingo.Rp.SAFE.FWDUndueStatisticsBatch.FWDUndueStatisticsReport
+Atf.Plugin.Pingo.Rp.SAFE.PositionDailyReportBatch.PositionDailyReport

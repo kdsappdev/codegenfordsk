@@ -1,0 +1,2540 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="_x0031_0.34.4.242_MODULES" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="_x0031_0.34.4.242_MODULES">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SHORTNAME" type="xs:string" minOccurs="0" />
+                <xs:element name="NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="DISPLAY_ORDER" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PLUGINID" type="xs:string" minOccurs="0" />
+                <xs:element name="CLASSNAME" type="xs:string" minOccurs="0" />
+                <xs:element name="DLLPATH" type="xs:string" minOccurs="0" />
+                <xs:element name="PARAMS" type="xs:string" minOccurs="0" />
+                <xs:element name="VIEWNAME" type="xs:string" minOccurs="0" />
+                <xs:element name="VIEWNAMECN" type="xs:string" minOccurs="0" />
+                <xs:element name="TYPE" type="xs:string" minOccurs="0" />
+                <xs:element name="GROUP_SHORTNAME" type="xs:string" minOccurs="0" />
+                <xs:element name="DESCRIPTION_EN" type="xs:string" minOccurs="0" />
+                <xs:element name="DESCRIPTION_CN" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Scenario</SHORTNAME>
+    <NAME>Scenario Analysis</NAME>
+    <ID>Scenario</ID>
+    <DISPLAY_ORDER>3</DISPLAY_ORDER>
+    <PLUGINID>FxSwapPosition</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Pn.Forx.FxSwapPosition</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Pn.dll</DLLPATH>
+    <PARAMS>&lt;Params&gt;&lt;Type&gt;NULL&lt;/Type&gt;&lt;Columns&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn1&lt;/Name&gt;&lt;Width&gt;100&lt;/Width&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;Fixed&gt;Left&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn2&lt;/Name&gt;&lt;Width&gt;100&lt;/Width&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn3&lt;/Name&gt;&lt;Width&gt;100&lt;/Width&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn4&lt;/Name&gt;&lt;Width&gt;40&lt;/Width&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn5&lt;/Name&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn6&lt;/Name&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn10&lt;/Name&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn14&lt;/Name&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn8&lt;/Name&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn12&lt;/Name&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn17&lt;/Name&gt;&lt;Width&gt;
+120&lt;/Width&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn20&lt;/Name&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn22&lt;/Name&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn24&lt;/Name&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn7&lt;/Name&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn9&lt;/Name&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn11&lt;/Name&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn13&lt;/Name&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn15&lt;/Name&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn16&lt;/Name&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn18&lt;/Name&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn19&lt;/Name&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn21&lt;/Name&gt;&lt;Width&gt;
+120&lt;/Width&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn23&lt;/Name&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn25&lt;/Name&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn26&lt;/Name&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn27&lt;/Name&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn28&lt;/Name&gt;&lt;Width&gt;140&lt;/Width&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn29&lt;/Name&gt;&lt;Width&gt;140&lt;/Width&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn30&lt;/Name&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn31&lt;/Name&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn32&lt;/Name&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;Column&gt;&lt;Name&gt;treeListColumn33&lt;/Name&gt;&lt;Width&gt;75&lt;/Width&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Fixed&gt;None&lt;/Fixed&gt;&lt;/Column&gt;&lt;/Columns&gt;&lt;/Params&gt;</PARAMS>
+    <VIEWNAME>Scenario Analysis</VIEWNAME>
+    <VIEWNAMECN>Çé¾°·ÖÎö</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Var</SHORTNAME>
+    <NAME>Var</NAME>
+    <ID>VarUI</ID>
+    <DISPLAY_ORDER>4</DISPLAY_ORDER>
+    <PLUGINID>VarUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Var.VarUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Vars.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>VaR</VIEWNAME>
+    <VIEWNAMECN>VaR</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>DealTrace</SHORTNAME>
+    <NAME>DealTrace</NAME>
+    <ID>DealTraceGUI</ID>
+    <DISPLAY_ORDER>7</DISPLAY_ORDER>
+    <PLUGINID>DealTraceGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DealManager.DealTrace.DealTraceGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Tm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Deals Trace</VIEWNAME>
+    <VIEWNAMECN>½»Ò×ºÛ¼£¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>ProductMenu</SHORTNAME>
+    <NAME>ProductMenu Plugin</NAME>
+    <ID>ProductMenuUI</ID>
+    <DISPLAY_ORDER>4</DISPLAY_ORDER>
+    <PLUGINID>ProductMenuUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Utilities.MenuBuilder.ProductMenuUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Utilities.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Product Menu</VIEWNAME>
+    <VIEWNAMECN>²úÆ·²Ëµ¥</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>ADM-AR</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>FxSwapHistoylPL</SHORTNAME>
+    <NAME>FxSwapHistoylPL</NAME>
+    <ID>FxSwapHistoylPL</ID>
+    <DISPLAY_ORDER>5</DISPLAY_ORDER>
+    <PLUGINID>FxSwapHistoylPL</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Pn.Revaluation.FxSwapHistoylPL</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Pn.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>P&amp;L Analysis</VIEWNAME>
+    <VIEWNAMECN>ÀúÊ·ËðÒæ·ÖÎö</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>SSO</SHORTNAME>
+    <NAME>Single Sign On</NAME>
+    <ID>SSO</ID>
+    <DISPLAY_ORDER>0</DISPLAY_ORDER>
+    <PLUGINID>SSO</PLUGINID>
+    <CLASSNAME>Ats.Pingo.SSO.SSOToolBar</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Pingo.SSO.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>SSO</VIEWNAME>
+    <VIEWNAMECN>µ¥µãµÇÂ¼</VIEWNAMECN>
+    <TYPE>T</TYPE>
+    <GROUP_SHORTNAME>TM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Secheduler</SHORTNAME>
+    <NAME>Secheduler</NAME>
+    <ID>SechedulerGUI</ID>
+    <DISPLAY_ORDER>3</DISPLAY_ORDER>
+    <PLUGINID>SechedulerGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Utilities.Scheduler.Impl.SchedulerGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Utilities.dll</DLLPATH>
+    <PARAMS>control/calendar.txt</PARAMS>
+    <VIEWNAME>Secheduler</VIEWNAME>
+    <VIEWNAMECN>½Ú¼ÙÈÕ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>ADM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Group UI</SHORTNAME>
+    <NAME>GroupUI Plugin</NAME>
+    <ID>GroupGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>GroupGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Utilities.Organization.GroupGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Utilities.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>StaticGroupConfig</VIEWNAME>
+    <VIEWNAMECN>¸ß¼¶È¨ÏÞÉèÖÃ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>SpotQuoteRateReport</SHORTNAME>
+    <NAME>SpotQuoteRateReport Plugin</NAME>
+    <ID>SpotQuoteRateReportGUI</ID>
+    <DISPLAY_ORDER>4</DISPLAY_ORDER>
+    <PLUGINID>SpotQuoteRateReportGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.PBox.Report.SpotQuoteRateReportGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.PBox.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>SpotQuoteRateReport</VIEWNAME>
+    <VIEWNAMECN>ÅÆ¼Û²éÑ¯±¨±í</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PB</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>ExChangeRate</SHORTNAME>
+    <NAME>ExChange Rate</NAME>
+    <ID>ExChangeRateGUI</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>ExChangeRateGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.PBox.ExChangeRate.ExChangeRateGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.PBox_old.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>ExChange Rate</VIEWNAME>
+    <VIEWNAMECN>±¨¼Û¼à¿Ø</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PB</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>RateViewUI</SHORTNAME>
+    <NAME>PboxViewUI</NAME>
+    <ID>RateViewUI</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>RateViewUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.PBox.RateView.RateViewUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.PBox.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>RateModify</VIEWNAME>
+    <VIEWNAMECN>¼Û¸ñ¼à¿Ø</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PB</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>RateModifyUI</SHORTNAME>
+    <NAME>PboxModifyUI</NAME>
+    <ID>ModifyUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>RateModifyUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.PBox.RateModify.RateModifyUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.PBox.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>RateEmerg</VIEWNAME>
+    <VIEWNAMECN>»ù×¼¼Ûµ÷Õû</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PB</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>AuditDetail</SHORTNAME>
+    <NAME>AuditDetailPlugin</NAME>
+    <ID>AuditDetailGUI</ID>
+    <DISPLAY_ORDER>3</DISPLAY_ORDER>
+    <PLUGINID>AuditDetailGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.PBox.AuditDetail.AuditDetailGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Pbox.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>AuditDetail</VIEWNAME>
+    <VIEWNAMECN>ÅÆ¼ÛÉó¼ÆÃ÷Ï¸</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PB</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>PboxSpotDailyReport</SHORTNAME>
+    <NAME>SpotDailyReport</NAME>
+    <ID>SpotDailyReportGUI</ID>
+    <DISPLAY_ORDER>0</DISPLAY_ORDER>
+    <PLUGINID>SpotDailyReportGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.PBox.Report.SpotDaily.SpotDailyReportGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.PBox.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>SpotDaily</VIEWNAME>
+    <VIEWNAMECN>ÅÆ¼Û¼´ÆÚ¹ÒÅÆ»ã¼ÛÈÕ±¨±í</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PB</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>SpotDailyHistoryReportGUI</SHORTNAME>
+    <NAME>SpotDailyHistoryReport</NAME>
+    <ID>SpotDailyHistoryReportGUI</ID>
+    <DISPLAY_ORDER>0</DISPLAY_ORDER>
+    <PLUGINID>SpotDailyHistoryReportGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.PBox.Report.SpotDailyHistory.SpotDailyReportHistoryGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.PBox.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>SpotDailyHistoryReport</VIEWNAME>
+    <VIEWNAMECN>¼´ÆÚÈÕ±¨±í</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PB</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>PboxSetting</SHORTNAME>
+    <NAME>PboxSetting Plugin</NAME>
+    <ID>PboxSettingGUI</ID>
+    <DISPLAY_ORDER>0</DISPLAY_ORDER>
+    <PLUGINID>SettingGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.PBox.RateSetup.SettingGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.PBox.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Pbox Setting</VIEWNAME>
+    <VIEWNAMECN>ÅÆ¼Û²ÎÊýÉèÖÃ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PB</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>GAccount</SHORTNAME>
+    <NAME>GAccount</NAME>
+    <ID>GAccountGUI</ID>
+    <DISPLAY_ORDER>17</DISPLAY_ORDER>
+    <PLUGINID>GAccountGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.AccountData.GAccount.GAccountGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>GAccount</VIEWNAME>
+    <VIEWNAMECN>ÅäÖÃ¿ÆÄ¿¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-SD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Bond</SHORTNAME>
+    <NAME>Bond</NAME>
+    <ID>BondDefinition</ID>
+    <DISPLAY_ORDER>13</DISPLAY_ORDER>
+    <PLUGINID>BondDefinition</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.StaticData.Bond.BondDefinition</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Bond</VIEWNAME>
+    <VIEWNAMECN>Õ®È¯¶¨Òå</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-SD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>AccountShema</SHORTNAME>
+    <NAME>AccountShema</NAME>
+    <ID>AccountShemaGUI</ID>
+    <DISPLAY_ORDER>18</DISPLAY_ORDER>
+    <PLUGINID>AccountShemaGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.AccountData.AccoutSchema.AccoutSchemaGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Account Schema</VIEWNAME>
+    <VIEWNAMECN>»á¼Æ·ÖÂ¼¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-SD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>AcctMan Capture</SHORTNAME>
+    <NAME>AcctMan Capture Plugin</NAME>
+    <ID>AcctManCaptureGUI</ID>
+    <DISPLAY_ORDER>19</DISPLAY_ORDER>
+    <PLUGINID>AcctManDataGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.AcctManager.Capture.AcctManDataGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Tm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>AcctMan Capture</VIEWNAME>
+    <VIEWNAMECN>ÊÖ¹¤Æ¾Ö¤Â¼Èë</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-SD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>AcctMan Blotter</SHORTNAME>
+    <NAME>AcctMan Blotter Plugin</NAME>
+    <ID>AcctManBlotterGUI</ID>
+    <DISPLAY_ORDER>12</DISPLAY_ORDER>
+    <PLUGINID>Matrix</PLUGINID>
+    <CLASSNAME>Atf.Pingo.Utils.UI.Matrix.Matrix</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Pingo.Utils.UI.Matrix.dll</DLLPATH>
+    <PARAMS>&lt;Args Type="File"&gt; &lt;Value&gt;control/MatrixAcctManDataBlotter.xml&lt;/Value&gt; &lt;/Args&gt;
+</PARAMS>
+    <VIEWNAME>Vouchers Audit</VIEWNAME>
+    <VIEWNAMECN>ÊÖ¹¤Æ¾Ö¤¸´ºË</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>SM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>CSettlement Log</SHORTNAME>
+    <NAME>Clients Settlement Log Plugin</NAME>
+    <ID>ClientsSettlementLogGUI</ID>
+    <DISPLAY_ORDER>9</DISPLAY_ORDER>
+    <PLUGINID>Matrix</PLUGINID>
+    <CLASSNAME>Atf.Pingo.Utils.UI.Matrix.Matrix</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Pingo.Utils.UI.Matrix.dll</DLLPATH>
+    <PARAMS>&lt;Args Type="File"&gt; &lt;Value&gt;control/clientsSettlementLogMatrixConfig.xml&lt;/Value&gt; &lt;/Args&gt;</PARAMS>
+    <VIEWNAME>Clients Settlement Log</VIEWNAME>
+    <VIEWNAMECN>ÇåËãÈÕ²éÑ¯</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>SM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Futures</SHORTNAME>
+    <NAME>Futures</NAME>
+    <ID>FuturesGUI</ID>
+    <DISPLAY_ORDER>5</DISPLAY_ORDER>
+    <PLUGINID>FuturesGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.StaticData.Futures.FutureGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Future</VIEWNAME>
+    <VIEWNAMECN>ÆÚ»õ¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-SD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Options</SHORTNAME>
+    <NAME>Options</NAME>
+    <ID>OptionsGUI</ID>
+    <DISPLAY_ORDER>6</DISPLAY_ORDER>
+    <PLUGINID>OptionsGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.StaticData.Options.OptionsGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Options</VIEWNAME>
+    <VIEWNAMECN>ÆÚÈ¨¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-SD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Broker</SHORTNAME>
+    <NAME>Broker Plugin</NAME>
+    <ID>BrokerGUI</ID>
+    <DISPLAY_ORDER>6</DISPLAY_ORDER>
+    <PLUGINID>BrokerGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.StaticData.Broker.BrokerGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Broker</VIEWNAME>
+    <VIEWNAMECN>´úÀí¹«Ë¾¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-ORG</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Futures Blotter</SHORTNAME>
+    <NAME>Futures Blotter Plugin</NAME>
+    <ID>FuturesBlotterGUI</ID>
+    <DISPLAY_ORDER>3</DISPLAY_ORDER>
+    <PLUGINID>Matrix</PLUGINID>
+    <CLASSNAME>Atf.Pingo.Utils.UI.Matrix.Matrix</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Pingo.Utils.UI.Matrix.dll</DLLPATH>
+    <PARAMS>&lt;Args Type="File"&gt; &lt;Value&gt;control/futuresBlotterMatrixConfig.xml&lt;/Value&gt; &lt;/Args&gt;</PARAMS>
+    <VIEWNAME>Futures Blotter</VIEWNAME>
+    <VIEWNAMECN>ÆÚ»õ½»Ò×±¡</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>OptionsCode</SHORTNAME>
+    <NAME>OptionsCode</NAME>
+    <ID>OptionsCodeGUI</ID>
+    <DISPLAY_ORDER>8</DISPLAY_ORDER>
+    <PLUGINID>OptionsCodeGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.StaticData.OptionsCode.OptionsCodeGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Options Code</VIEWNAME>
+    <VIEWNAMECN>ÆÚÈ¨´úÂë¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-SD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>PairKeys</SHORTNAME>
+    <NAME>PairKeys</NAME>
+    <ID>PairKeys</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>PairKeys</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.MarketData.PairKeys.PairKeysGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Market Data Source</VIEWNAME>
+    <VIEWNAMECN>ÊÐ³¡Êý¾ÝÀ´Ô´ÉèÖÃ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-MD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Location</SHORTNAME>
+    <NAME>Location Plugin</NAME>
+    <ID>LocationGUI</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>LocationGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Utilities.UserManagement.Location.LocationGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Utilities.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Location</VIEWNAME>
+    <VIEWNAMECN>ÊµÌå¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>ADM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Client</SHORTNAME>
+    <NAME>Clients</NAME>
+    <ID>ClientGUI</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>ClientGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.StaticData.Client.ClientGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Client</VIEWNAME>
+    <VIEWNAMECN>¿Í»§¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-ORG</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>FuturesCode</SHORTNAME>
+    <NAME>FuturesCode</NAME>
+    <ID>FuturesCodeGUI</ID>
+    <DISPLAY_ORDER>7</DISPLAY_ORDER>
+    <PLUGINID>FuturesCodeGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.StaticData.FuturesCode.FuturesCodeGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Futures Code</VIEWNAME>
+    <VIEWNAMECN>ÆÚ»õ´úÂë¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-SD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>SSI</SHORTNAME>
+    <NAME>SSI</NAME>
+    <ID>SsiGUI</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>SsiGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.StaticData.Ssi.SsiGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>SSI</VIEWNAME>
+    <VIEWNAMECN>ÇåËã¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-ORG</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>ImportData</SHORTNAME>
+    <NAME>ImportData</NAME>
+    <ID>ImportDataGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>ImportDataGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Utilities.DataInterface.ImportDataGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Utilities.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Deals Import</VIEWNAME>
+    <VIEWNAMECN>½»Ò×ÅúÁ¿µ¼Èë</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM-DC</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Setup</SHORTNAME>
+    <NAME>Setup</NAME>
+    <ID>SetupGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>SetupGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Utilities.Administrator.Setup.SetupGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Utilities.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Setup</VIEWNAME>
+    <VIEWNAMECN>²ÎÊýÉèÖÃ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>NewCollateralBlotter</SHORTNAME>
+    <NAME>Collateral Blotter</NAME>
+    <ID>CollateralBlotterGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>Matrix</PLUGINID>
+    <CLASSNAME>Atf.Pingo.Uitls.UI.Matrix.Matrix</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Pingo.Utils.UI.Matrix.dll</DLLPATH>
+    <PARAMS>&lt;Args Type="File"&gt;&lt;Value&gt;control/CollateralBlotterMatrixConfig.xml&lt;/Value&gt;&lt;/Args&gt;</PARAMS>
+    <VIEWNAME>Collateral Blotter</VIEWNAME>
+    <VIEWNAMECN>±£Ö¤½ð¼ÇÂ¼²¾</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Collateral Log</SHORTNAME>
+    <NAME>Collateral Log</NAME>
+    <ID>CollateralLogGUI</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>Matrix</PLUGINID>
+    <CLASSNAME>Atf.Pingo.Utils.UI.Matrix.Matrix</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Pingo.Utils.UI.Matrix.dll</DLLPATH>
+    <PARAMS>&lt;Args Type="File"&gt; &lt;Value&gt;control/CollateralLogMatrixConfig.xml&lt;/Value&gt; &lt;/Args&gt;</PARAMS>
+    <VIEWNAME>Collateral Log</VIEWNAME>
+    <VIEWNAMECN>±£Ö¤½ð´æÈ¡ÈÕÖ¾</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>CLT Monitor</SHORTNAME>
+    <NAME>Collateral Limit Monitor Plugin</NAME>
+    <ID>CollateralLimitGUI</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>CollateralLimitGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Rk.LimitMonitor.CollateralLimit.CollateralLimitGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Rk.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Limits Monitor</VIEWNAME>
+    <VIEWNAMECN>±£Ö¤½ð¶î¶È¼à¿Ø</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM-LM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>CreditLimitReport</SHORTNAME>
+    <NAME>Credit Limit Report</NAME>
+    <ID>CreditLimitReport</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>gyau</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Rp.CreditLimit.ReportGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Rp.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Limits Summary Report</VIEWNAME>
+    <VIEWNAMECN>ÊÚÐÅ¶î¶ÈÊ¹ÓÃÇé¿ö±¨±í</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM-LM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>CreditLimitUsedReport</SHORTNAME>
+    <NAME>CreditLimit Used Report</NAME>
+    <ID>CreditLimitUsedReportGUI</ID>
+    <DISPLAY_ORDER>6</DISPLAY_ORDER>
+    <PLUGINID>CreditLimitUsedReportGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Rp.CreditLimit.CreditLimitUsedReportGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Rp.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Limits Detail Report</VIEWNAME>
+    <VIEWNAMECN>Î´½»¸î½»Ò×Ã÷Ï¸±¨±í</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM-LM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Deal Log view</SHORTNAME>
+    <NAME>Deal Log Plugin</NAME>
+    <ID>DealDetailLogGUI</ID>
+    <DISPLAY_ORDER>3</DISPLAY_ORDER>
+    <PLUGINID>DealDetailLogGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Tm.DealManager.DealLog.DealDetailLogGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Tm.dll</DLLPATH>
+    <PARAMS>&lt;Args Type="File"&gt;&lt;Value&gt;&lt;/Value&gt;&lt;/Args&gt;</PARAMS>
+    <VIEWNAME>Deal Log View</VIEWNAME>
+    <VIEWNAMECN>½»Ò×ÈÕÖ¾Ã÷Ï¸</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>CollateralRemain</SHORTNAME>
+    <NAME>CollateralRemain</NAME>
+    <ID>CollateralRemainGUI</ID>
+    <DISPLAY_ORDER>4</DISPLAY_ORDER>
+    <PLUGINID>Matrix</PLUGINID>
+    <CLASSNAME>Atf.Pingo.Utils.UI.Matrix.Matrix</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Pingo.Utils.UI.Matrix.dll</DLLPATH>
+    <PARAMS>&lt;Args Type="File"&gt;&lt;Value&gt;control/CollateralRemainMatrixConfig.xml&lt;/Value&gt;&lt;/Args&gt;</PARAMS>
+    <VIEWNAME>Collateral Remain</VIEWNAME>
+    <VIEWNAMECN>±£Ö¤½ðÓà¶î</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>QuoteRateModificationGUI</SHORTNAME>
+    <NAME>QuoteRateModificationGUI</NAME>
+    <ID>QuoteRateModificationGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>QuoteRateModificationGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Pn.Revaluation.QuoteRateModificationGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Pn.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>QuoteRateModification</VIEWNAME>
+    <VIEWNAMECN>ÊÐ³¡±¨¼Ûµ÷Õû</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>MPManager</SHORTNAME>
+    <NAME>Margin Parameters Manager</NAME>
+    <ID>MPManagerGUI</ID>
+    <DISPLAY_ORDER>5</DISPLAY_ORDER>
+    <PLUGINID>MPManagerGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Utilities.Administrator.MarginParameters.MarginParametersGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Utilities.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>CFETS Margin Parameters</VIEWNAME>
+    <VIEWNAMECN>±£Ö¤½ð²ÎÊýÉèÖÃ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-ORG</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Gold</SHORTNAME>
+    <NAME>Gold Deal</NAME>
+    <ID>GoldDealGUI</ID>
+    <DISPLAY_ORDER>3</DISPLAY_ORDER>
+    <PLUGINID>GoldDealGUI</PLUGINID>
+    <CLASSNAME>GoldDealGUI</CLASSNAME>
+    <DLLPATH>TM-DC-C</DLLPATH>
+    <PARAMS>GoldDealGUI</PARAMS>
+    <VIEWNAME>Gold</VIEWNAME>
+    <VIEWNAMECN>»Æ½ð</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM-DC-C</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>SecureLD</SHORTNAME>
+    <NAME>Secure Loan Deposit</NAME>
+    <ID>SecureLoanDepositGUI</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>SecureLoanDepositGUI</PLUGINID>
+    <CLASSNAME>SecureLoanDepositGUI</CLASSNAME>
+    <DLLPATH>SecureLoanDepositGUI</DLLPATH>
+    <PARAMS>SecureLoanDepositGUI</PARAMS>
+    <VIEWNAME>Secure Loan Deposit</VIEWNAME>
+    <VIEWNAMECN>Õ®È¯½è´û</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM-DC-FI</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>MBSABS</SHORTNAME>
+    <NAME>MBS ABS</NAME>
+    <ID>MBSABSGUI</ID>
+    <DISPLAY_ORDER>3</DISPLAY_ORDER>
+    <PLUGINID>MBSABSGUI</PLUGINID>
+    <CLASSNAME>MBSABSGUI</CLASSNAME>
+    <DLLPATH>MBSABSGUI</DLLPATH>
+    <PARAMS>MBSABSGUI</PARAMS>
+    <VIEWNAME>MBS ABS</VIEWNAME>
+    <VIEWNAMECN>×Ê²úÖ§³ÖÖ¤È¯</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM-DC-FI</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>DealerChangeRate</SHORTNAME>
+    <NAME>DealerChange Rate</NAME>
+    <ID>DealerChangeRateGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>DealerChangeRateGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.PBox.DealerChangeRate.DealerChangeRateGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.PBox_old.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Deal ChangeRate</VIEWNAME>
+    <VIEWNAMECN>ÅÆ¼Û¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PB</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Parameters</SHORTNAME>
+    <NAME>ParametersGUI</NAME>
+    <ID>ParametersGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>ParametersGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.StaticData.Parameters.ParametersGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.DM.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Parameters</VIEWNAME>
+    <VIEWNAMECN>ÏµÍ³²ÎÊýÉèÖÃ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-SD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>OrganizationUI</SHORTNAME>
+    <NAME>Organization Plugin</NAME>
+    <ID>OrganizationGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>OrganizationGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Utilities.Organization.OrganizationGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Utilities.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Organization</VIEWNAME>
+    <VIEWNAMECN>»ú¹¹¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-ORG</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>PboxHistoryRate</SHORTNAME>
+    <NAME>HistoryRateGUI</NAME>
+    <ID>HistoryRateGUI</ID>
+    <DISPLAY_ORDER>3</DISPLAY_ORDER>
+    <PLUGINID>HistoryRateGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.PBox.Report.HistoryRate.HistoryRateGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.PBox.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>HistoryRate</VIEWNAME>
+    <VIEWNAMECN>ÀúÊ·¼Û¸ñ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PB</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>PboxComPlianceCheck</SHORTNAME>
+    <NAME>ComPlianceCheckGUI</NAME>
+    <ID>ComPlianceCheckGUI</ID>
+    <DISPLAY_ORDER>3</DISPLAY_ORDER>
+    <PLUGINID>ComPlianceCheckGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.PBox.Report.ComPlianceCheck.ComPlianceCheckGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.PBox.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>ComPlianceCheck</VIEWNAME>
+    <VIEWNAMECN>ºÏ¹æÐÔ¼ì²é</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PB</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>LoanDeposit</SHORTNAME>
+    <NAME>Loan Deposit</NAME>
+    <ID>LoanDepositGUI</ID>
+    <DISPLAY_ORDER>3</DISPLAY_ORDER>
+    <PLUGINID>LoanDepositGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DealManager.DealCapture.Gui.SingleGUI.InsertLDForm</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Tm.dll</DLLPATH>
+    <PARAMS>LoanDepositGUI</PARAMS>
+    <VIEWNAME>Loan Deposit</VIEWNAME>
+    <VIEWNAMECN>ÐÅÓÃ²ð½è</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM-DC-M</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>TestDealCapture</SHORTNAME>
+    <NAME>Test Deal Capture</NAME>
+    <ID>TestDCGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>TestDealCapture</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DealCapture.TestUC</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Tm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Test Deal Capture</VIEWNAME>
+    <VIEWNAMECN>Test Deal Capture</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM-DC</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>GeneralReport</SHORTNAME>
+    <NAME>General Report</NAME>
+    <ID>GeneralReportGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>ReportManager</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.ReportManager.ReportManager</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.ReportManager.dll</DLLPATH>
+    <PARAMS>&lt;ReportPlugin Type="FileAll"&gt;&lt;Value&gt;control/Report/ReportConfig.xml&lt;/Value&gt;&lt;/ReportPlugin&gt;</PARAMS>
+    <VIEWNAME>Gentral Report</VIEWNAME>
+    <VIEWNAMECN>Í¨ÓÃ±¨±í</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RP</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>CCommission</SHORTNAME>
+    <NAME>CFETS Commission</NAME>
+    <ID>CFETSCommissionGUI</ID>
+    <DISPLAY_ORDER>4</DISPLAY_ORDER>
+    <PLUGINID>CFETSCommissionGUI</PLUGINID>
+    <CLASSNAME>Atf.Pingo.Demo.AgentCommissionGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Pingo.Test.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>CFETS Commission</VIEWNAME>
+    <VIEWNAMECN>CFETSÊÖÐø·ÑÉèÖÃ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-ORG</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>ForexConfig</SHORTNAME>
+    <NAME>Forex Config</NAME>
+    <ID>ForexConfigGUI</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>ForexConfigGUI</PLUGINID>
+    <CLASSNAME>ForexConfigGUI</CLASSNAME>
+    <DLLPATH>ForexConfigGUI</DLLPATH>
+    <PARAMS>ForexConfigGUI</PARAMS>
+    <VIEWNAME>Forex Config</VIEWNAME>
+    <VIEWNAMECN>Íâ»ãÅäÖÃ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-AC</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>FXOptions</SHORTNAME>
+    <NAME>FX Options</NAME>
+    <ID>FXOptionsGUI</ID>
+    <DISPLAY_ORDER>4</DISPLAY_ORDER>
+    <PLUGINID>FXOptionsGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DealManager.DealCapture.Gui.SingleGUI.InsertFxOptionsForm</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Tm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>FX Options</VIEWNAME>
+    <VIEWNAMECN>Íâ»ãÆÚÈ¨</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM-DC-F</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Bonds</SHORTNAME>
+    <NAME>Bonds Deal</NAME>
+    <ID>BondsDealGUI</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>BondsDealGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DealManager.DealCapture.Gui.SingleGUI.InsertBondsForm</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Tm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Bonds</VIEWNAME>
+    <VIEWNAMECN>Õ®È¯</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM-DC-FI</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>BSRepo</SHORTNAME>
+    <NAME>Buy-sell Repo Deal</NAME>
+    <ID>BuySellRepoGUI</ID>
+    <DISPLAY_ORDER>3</DISPLAY_ORDER>
+    <PLUGINID>BuySellRepoGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DealManager.DealCapture.Gui.SingleGUI.InsertBuySellRepoForm</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Tm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Buy-sell Repo</VIEWNAME>
+    <VIEWNAMECN>Âò¶ÏÊ½»Ø¹º</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM-DC-M</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>CollRepo</SHORTNAME>
+    <NAME>Collateral Repo</NAME>
+    <ID>CollateralRepoGUI</ID>
+    <DISPLAY_ORDER>4</DISPLAY_ORDER>
+    <PLUGINID>CollateralRepoGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DealManager.DealCapture.Gui.SingleGUI.InsertCollateralRepoForm</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Tm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Collateral Repo</VIEWNAME>
+    <VIEWNAMECN>ÖÊÑºÊ½»Ø¹º</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM-DC-M</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>IRSCIRS</SHORTNAME>
+    <NAME>IRS/CIRS</NAME>
+    <ID>IRSGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>IRSGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DealManager.DealCapture.Gui.SingleGUI.InsertIRSForm</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Tm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>IRS/CIRS</VIEWNAME>
+    <VIEWNAMECN>ÀûÂÊµôÆÚ/»õ±ÒµôÆÚ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM-DC-D</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>FuturesDeal</SHORTNAME>
+    <NAME>Futures Deal Capture</NAME>
+    <ID>FuturesDealGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>FuturesDealGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DealManager.DealCapture.Gui.SingleGUI.InsertFuturesForm</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Tm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Futures</VIEWNAME>
+    <VIEWNAMECN>ÉÌÆ·ÆÚ»õ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM-DC-C</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>OptionsDeal</SHORTNAME>
+    <NAME>Options Deal Capture</NAME>
+    <ID>OptionsDealGUI</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>OptionsDealGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DealManager.DealCapture.Gui.SingleGUI.InsertOptionsForm</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Tm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Options</VIEWNAME>
+    <VIEWNAMECN>ÉÌÆ·ÆÚÈ¨</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM-DC-C</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>FeeBlotter</SHORTNAME>
+    <NAME>Fee Blotter</NAME>
+    <ID>FeeBlotterGUI</ID>
+    <DISPLAY_ORDER>3</DISPLAY_ORDER>
+    <PLUGINID>FeeBlotterGUI</PLUGINID>
+    <CLASSNAME>FeeBlotterGUI</CLASSNAME>
+    <DLLPATH>FeeBlotterGUI</DLLPATH>
+    <PARAMS>FeeBlotterGUI</PARAMS>
+    <VIEWNAME>Fee Blotter</VIEWNAME>
+    <VIEWNAMECN>·ÑÓÃµÇ¼Ç</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>SM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>FeeList</SHORTNAME>
+    <NAME>Fee List</NAME>
+    <ID>FeeListGUI</ID>
+    <DISPLAY_ORDER>4</DISPLAY_ORDER>
+    <PLUGINID>ReportManager</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.ReportManager.ReportManager</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.ReportManager.dll</DLLPATH>
+    <PARAMS>&lt;ReportPlugin Type="FileAll"&gt;&lt;Value&gt;control/FeeReport/ReportConfig.xml&lt;/Value&gt;&lt;/ReportPlugin&gt;</PARAMS>
+    <VIEWNAME>Fee Log</VIEWNAME>
+    <VIEWNAMECN>·ÑÓÃ²éÑ¯</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>SM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>SLMonitor</SHORTNAME>
+    <NAME>Daily Settlement Limit Monitor</NAME>
+    <ID>SLMonitorGUI</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>SLMonitorGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Rk.LimitMonitor.DailySettlementLimit.DailySettlementLimitGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Rk.dll</DLLPATH>
+    <PARAMS>SLMonitorGUI</PARAMS>
+    <VIEWNAME>Daily Settlement Limit Monitor</VIEWNAME>
+    <VIEWNAMECN>Ã¿ÈÕÇåËã¶î¶È¼à¿Ø</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM-LM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>SLLimitCoverage</SHORTNAME>
+    <NAME>Settlement Limit Coverage</NAME>
+    <ID>SLimitCoverageGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>SLimitCoverageGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Rk.SettlementLimit.SLimitCoverage.SLimitCoverageGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.RK.dll</DLLPATH>
+    <PARAMS>SLimitCoverageGUI</PARAMS>
+    <VIEWNAME>Limit Coverage</VIEWNAME>
+    <VIEWNAMECN>Ô¤¶¨Òå¶î¶È</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM-SL</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Options Blotter</SHORTNAME>
+    <NAME>Options Blotter Plugin</NAME>
+    <ID>OptionsBlotterGUI</ID>
+    <DISPLAY_ORDER>5</DISPLAY_ORDER>
+    <PLUGINID>Matrix</PLUGINID>
+    <CLASSNAME>Atf.Pingo.Utils.UI.Matrix.Matrix</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Pingo.Utils.UI.Matrix.dll</DLLPATH>
+    <PARAMS>&lt;Args Type="File"&gt; &lt;Value&gt;control/optionsBlotterMatrixConfig.xml&lt;/Value&gt; &lt;/Args&gt;</PARAMS>
+    <VIEWNAME>Options Blotter</VIEWNAME>
+    <VIEWNAMECN>ÆÚÈ¨½»Ò×²¾</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Futures Log</SHORTNAME>
+    <NAME>Futures Log Plugin</NAME>
+    <ID>FuturesLogGUI</ID>
+    <DISPLAY_ORDER>4</DISPLAY_ORDER>
+    <PLUGINID>Matrix</PLUGINID>
+    <CLASSNAME>Atf.Pingo.Utils.UI.Matrix.Matrix</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Pingo.Utils.UI.Matrix.dll</DLLPATH>
+    <PARAMS>&lt;Args Type="File"&gt; &lt;Value&gt;control/futuresLogMatrixConfig.xml&lt;/Value&gt; &lt;/Args&gt;</PARAMS>
+    <VIEWNAME>Future Log</VIEWNAME>
+    <VIEWNAMECN>ÆÚ»õ½»Ò×ÈÕÖ¾</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Options Log</SHORTNAME>
+    <NAME>Options Log Plugin</NAME>
+    <ID>OptionsLogGUI</ID>
+    <DISPLAY_ORDER>6</DISPLAY_ORDER>
+    <PLUGINID>Matrix</PLUGINID>
+    <CLASSNAME>Atf.Pingo.Utils.UI.Matrix.Matrix</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Pingo.Utils.UI.Matrix.dll</DLLPATH>
+    <PARAMS>&lt;Args Type="File"&gt; &lt;Value&gt;control/optionsLogMatrixConfig.xml&lt;/Value&gt; &lt;/Args&gt;</PARAMS>
+    <VIEWNAME>Options Log</VIEWNAME>
+    <VIEWNAMECN>ÆÚÈ¨½»Ò×ÈÕÖ¾</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>BookStructure</SHORTNAME>
+    <NAME>Book Structure</NAME>
+    <ID>BookStructureGUI</ID>
+    <DISPLAY_ORDER>4</DISPLAY_ORDER>
+    <PLUGINID>BookStructureGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.StaticData.BookStructure.BookStructureGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Book Structure</VIEWNAME>
+    <VIEWNAMECN>Í¶×é½á¹¹¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-SD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>BrokerFund</SHORTNAME>
+    <NAME>Broker Fund</NAME>
+    <ID>BrokerFund</ID>
+    <DISPLAY_ORDER>6</DISPLAY_ORDER>
+    <PLUGINID>BrokerFund</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.BrokerCashMgmt.BrokerFundGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>q</PARAMS>
+    <VIEWNAME>Broker Fund</VIEWNAME>
+    <VIEWNAMECN>´úÀí×Ê½ð¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>SM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>ClientFund</SHORTNAME>
+    <NAME>ClientFund</NAME>
+    <ID>ClientFund</ID>
+    <DISPLAY_ORDER>5</DISPLAY_ORDER>
+    <PLUGINID>ClientFund</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.CustCashMgmt.ClientFundGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>ClientFund</PARAMS>
+    <VIEWNAME>Client Fund</VIEWNAME>
+    <VIEWNAMECN>¿Í»§×Ê½ð¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>SM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>ClientBalance</SHORTNAME>
+    <NAME>FuturesOptionsClientBalance</NAME>
+    <ID>ClientBalanceGUI</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>entBalanceGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Rk.RiskMonitor.FuturesOptionsClientBalanceGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.RK.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Futures Options Client Balance</VIEWNAME>
+    <VIEWNAMECN>¿Í»§×Ê½ð·çÏÕ¼à¿Ø</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RP</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>ClientDFPos</SHORTNAME>
+    <NAME>ClientDFPos</NAME>
+    <ID>ClientDFPos</ID>
+    <DISPLAY_ORDER>3</DISPLAY_ORDER>
+    <PLUGINID>ClientDFPos</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Rk.RiskMonitor.FuturesOptionsClientDFPosGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Rk.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Client DF Pos</VIEWNAME>
+    <VIEWNAMECN>¿Í»§³Ö²Ö·çÏÕ¼à¿Ø</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RP</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>CarryForWard</SHORTNAME>
+    <NAME>CarryForWard</NAME>
+    <ID>CarryForWardGUI</ID>
+    <DISPLAY_ORDER>7</DISPLAY_ORDER>
+    <PLUGINID>CarryForWardGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.StraightThroughProcess.Settlement.ClientCarryForwardGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.STP.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>CarryForWardGUI</VIEWNAME>
+    <VIEWNAMECN>¿Í»§½á×ª</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>SM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>ClientSettlementGUI</SHORTNAME>
+    <NAME>Client Settlement</NAME>
+    <ID>ClientSettlementGUI</ID>
+    <DISPLAY_ORDER>8</DISPLAY_ORDER>
+    <PLUGINID>ClientSettlementGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.StraightThroughProcess.Settlement.ClientSettlementGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.STP.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Client Settlement </VIEWNAME>
+    <VIEWNAMECN>¿Í»§/´úÀí½áËã</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>SM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>FxSwapRevaluatio</SHORTNAME>
+    <NAME>FxSwapRevaluation</NAME>
+    <ID>FxSwapRevaluation</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>FxSwapRevaluation</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Revaluation.FxSwapRevaluationGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Pn.dll</DLLPATH>
+    <PARAMS>FxSwapRevaluation</PARAMS>
+    <VIEWNAME>Swap</VIEWNAME>
+    <VIEWNAMECN>µôÆÚ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PM-RT</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>SpotRevaluation</SHORTNAME>
+    <NAME>SpotRevaluation</NAME>
+    <ID>SpotRevaluationGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>SpotRevaluation</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Revaluation.SpotRevaluationGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Pn.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Spot</VIEWNAME>
+    <VIEWNAMECN>¼´ÆÚ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PM-RT</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Trader Monitor</SHORTNAME>
+    <NAME>TraderMonitor</NAME>
+    <ID>TraderMonitorGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>Matrix</PLUGINID>
+    <CLASSNAME>Atf.Pingo.Utils.UI.Matrix.Matrix</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Pingo.Utils.UI.Matrix.dll</DLLPATH>
+    <PARAMS>&lt;Args Type="File"&gt; &lt;Value&gt;control/PTradeMonitorMatrixConfig.xml&lt;/Value&gt; &lt;/Args&gt;</PARAMS>
+    <VIEWNAME>PTrader Monitor</VIEWNAME>
+    <VIEWNAMECN>½»Ò×¼à¿Ø</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>SymbolTick</SHORTNAME>
+    <NAME>SymbolTick</NAME>
+    <ID>SymbolTick</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>SymbolTick</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.EasyChart.TabSymbolTick</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.EasyChart.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Symbols</VIEWNAME>
+    <VIEWNAMECN>ÊÐ³¡Êý¾Ý¼à¿Ø</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PB</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>AlarmLog</SHORTNAME>
+    <NAME>AlarmLog</NAME>
+    <ID>AlarmLogUI</ID>
+    <DISPLAY_ORDER>30</DISPLAY_ORDER>
+    <PLUGINID>AlarmLogUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.AlarmLog.AlarmLogUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.AlarmLog.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>AlarmLog</VIEWNAME>
+    <VIEWNAMECN>±¨¾¯ÐÅÏ¢²éÑ¯</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DOC</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>NoMaturityFwdDealReport</SHORTNAME>
+    <NAME>NoMaturityFwdDealReport</NAME>
+    <ID>NoMaturityFwdDealReportGui</ID>
+    <DISPLAY_ORDER>6</DISPLAY_ORDER>
+    <PLUGINID>NoMaturityFwdDealReportGui</PLUGINID>
+    <CLASSNAME>Com.Bankcomm.Pingo.Report.NoMaturityDeal.NoMaturityFwdDealReportGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Com.Bankcomm.Pingo.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Limits Detail Report</VIEWNAME>
+    <VIEWNAMECN>·ÖÐÐ½áÊÛ»ãÏêÏ¸±¨±í</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM-LR</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>MaturityFwdDealReport</SHORTNAME>
+    <NAME>MaturityFwdDealReport</NAME>
+    <ID>MaturityFwdDealReportGui</ID>
+    <DISPLAY_ORDER>7</DISPLAY_ORDER>
+    <PLUGINID>MaturityFwdDealReportGui</PLUGINID>
+    <CLASSNAME>Com.Bankcomm.Pingo.Report.MaturityDeal.MaturityFwdDealReportGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Com.Bankcomm.Pingo.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>MaturityFwdDealReport</VIEWNAME>
+    <VIEWNAMECN>·ÖÐÐÒÑ½»¸î½»Ò×Ã÷Ï¸±¨±í</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM-LR</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>CreditLimitUsedReport2</SHORTNAME>
+    <NAME>CreditLimitUsedReport2</NAME>
+    <ID>CreditLimitUsedReportGUI2</ID>
+    <DISPLAY_ORDER>3</DISPLAY_ORDER>
+    <PLUGINID>CreditLimitUsedReportGUI2</PLUGINID>
+    <CLASSNAME>Com.Bankcomm.Pingo.Report.CreditLimit.CreditLimitUsedReportGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Com.Bankcomm.Pingo.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Limits Detail Report</VIEWNAME>
+    <VIEWNAMECN>¶î¶ÈÊ¹ÓÃÇé¿ö±¨±í</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM-LR</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>GJBMaturityFwdDealReport</SHORTNAME>
+    <NAME>GJBMaturityFwdDealReport</NAME>
+    <ID>GJBMaturityFwdDealReportGui</ID>
+    <DISPLAY_ORDER>7</DISPLAY_ORDER>
+    <PLUGINID>GJBMaturityFwdDealReportGui</PLUGINID>
+    <CLASSNAME>Com.Bankcomm.Pingo.Report.MaturityDeal.GJBMaturityFwdDealReportGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Com.Bankcomm.Pingo.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>GJBMaturityFwdDealReport</VIEWNAME>
+    <VIEWNAMECN>¹ú¼Ê²¿ÒÑ½»¸î½»Ò×Ã÷Ï¸±¨±í</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM-LR</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>JRMaturityFwdDealReport</SHORTNAME>
+    <NAME>JRMaturityFwdDealReport</NAME>
+    <ID>JRMaturityFwdDealReportGui</ID>
+    <DISPLAY_ORDER>7</DISPLAY_ORDER>
+    <PLUGINID>JRMaturityFwdDealReportGui</PLUGINID>
+    <CLASSNAME>Com.Bankcomm.Pingo.Report.MaturityDeal.JRMaturityFwdDealReportGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Com.Bankcomm.Pingo.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>JRMaturityFwdDealReport</VIEWNAME>
+    <VIEWNAMECN>ÊÐ³¡²¿ÒÑ½»¸î½»Ò×Ã÷Ï¸±¨±í</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM-LR</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>JRNoMaturityFwdDealReport</SHORTNAME>
+    <NAME>JRNoMaturityFwdDealReport</NAME>
+    <ID>JRNoMaturityFwdDealReportGui</ID>
+    <DISPLAY_ORDER>6</DISPLAY_ORDER>
+    <PLUGINID>JRNoMaturityFwdDealReportGui</PLUGINID>
+    <CLASSNAME>Com.Bankcomm.Pingo.Report.NoMaturityDeal.JRNoMaturityFwdDealReportGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Com.Bankcomm.Pingo.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Limits Detail Report</VIEWNAME>
+    <VIEWNAMECN>ÊÐ³¡²¿½áÊÛ»ãÏêÏ¸±¨±í</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM-LR</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>GJBNoMaturityFwdDealReport</SHORTNAME>
+    <NAME>GJBNoMaturityFwdDealReport</NAME>
+    <ID>GJBNoMaturityFwdDealReportGui</ID>
+    <DISPLAY_ORDER>6</DISPLAY_ORDER>
+    <PLUGINID>GJBNoMaturityFwdDealReportGui</PLUGINID>
+    <CLASSNAME>Com.Bankcomm.Pingo.Report.NoMaturityDeal.GJBNoMaturityFwdDealReportGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Com.Bankcomm.Pingo.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Limits Detail Report</VIEWNAME>
+    <VIEWNAMECN>¹ú¼Ê²¿½áÊÛ»ãÏêÏ¸±¨±í</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM-LR</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>PostingReport</SHORTNAME>
+    <NAME>Posting Report Plugin</NAME>
+    <ID>PostingReportGUI</ID>
+    <DISPLAY_ORDER>4</DISPLAY_ORDER>
+    <PLUGINID>Matrix</PLUGINID>
+    <CLASSNAME>Atf.Pingo.Utils.UI.Matrix.Matrix</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Pingo.Utils.UI.Matrix.dll</DLLPATH>
+    <PARAMS>&lt;Args Type="File"&gt; &lt;Value&gt;control/MatrixPostingReport.xml&lt;/Value&gt; &lt;/Args&gt; </PARAMS>
+    <VIEWNAME>PostingReport</VIEWNAME>
+    <VIEWNAMECN>»á¼Æ·ÖÂ¼±¨±í</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RP</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Token</SHORTNAME>
+    <NAME>GAccount Token</NAME>
+    <ID>TokenGUI</ID>
+    <DISPLAY_ORDER>16</DISPLAY_ORDER>
+    <PLUGINID>TokenGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.AccountData.Token.TokenGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Token</VIEWNAME>
+    <VIEWNAMECN>Áã¼þ¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-SD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Account</SHORTNAME>
+    <NAME>Account</NAME>
+    <ID>AccountGUI</ID>
+    <DISPLAY_ORDER>14</DISPLAY_ORDER>
+    <PLUGINID>AccountGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.AccountData.Account.AccountGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Account</VIEWNAME>
+    <VIEWNAMECN>±ê×¼¿ÆÄ¿¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-SD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>AcctEvent</SHORTNAME>
+    <NAME>AcctEvent</NAME>
+    <ID>EventGUI</ID>
+    <DISPLAY_ORDER>15</DISPLAY_ORDER>
+    <PLUGINID>EventGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.AccountData.AcctEvent.EventGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>AcctEvent</VIEWNAME>
+    <VIEWNAMECN>»á¼ÆÊÂÏî¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-SD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Account Report</SHORTNAME>
+    <NAME>Account Report Plugin</NAME>
+    <ID>AccountReportGUI</ID>
+    <DISPLAY_ORDER>5</DISPLAY_ORDER>
+    <PLUGINID>Matrix</PLUGINID>
+    <CLASSNAME>Atf.Pingo.Utils.UI.Matrix.Matrix</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Pingo.Utils.UI.Matrix.dll</DLLPATH>
+    <PARAMS>&lt;Args Type="File"&gt;&lt;Value&gt;control/AccountReportGUIMatrixConfig.xml&lt;/Value&gt;&lt;/Args&gt;</PARAMS>
+    <VIEWNAME>Account Report</VIEWNAME>
+    <VIEWNAMECN>¿ÆÄ¿±í²éÑ¯</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RP</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>AcctMan Reversed</SHORTNAME>
+    <NAME>AcctMan Reversed</NAME>
+    <ID>ReverseGUI</ID>
+    <DISPLAY_ORDER>11</DISPLAY_ORDER>
+    <PLUGINID>ReverseGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.AcctManager.Reversed.ReverseGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Tm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Reversed</VIEWNAME>
+    <VIEWNAMECN>ÊÖ¹¤Æ¾Ö¤³åÏú</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>SM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>AcctBatch</SHORTNAME>
+    <NAME>AcctBatch Plugin</NAME>
+    <ID>AcctBatchGUI</ID>
+    <DISPLAY_ORDER>10</DISPLAY_ORDER>
+    <PLUGINID>AcctBatchGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.AcctManager.AcctBatch.BatchGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Tm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Cut Day Batch</VIEWNAME>
+    <VIEWNAMECN>ÈÕÖÕÅú´¦Àí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>SM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>MaturityClasses</SHORTNAME>
+    <NAME>MaturityClasses</NAME>
+    <ID>MaturityClassesGUI</ID>
+    <DISPLAY_ORDER>5</DISPLAY_ORDER>
+    <PLUGINID>MaturityClassesGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.StaticData.MaturityClasses.MaturityClassesGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Tenor</VIEWNAME>
+    <VIEWNAMECN>ÆÚÏÞ¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-SD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>SendReport</SHORTNAME>
+    <NAME>SendReport</NAME>
+    <ID>SendReportGUI</ID>
+    <DISPLAY_ORDER>12</DISPLAY_ORDER>
+    <PLUGINID>SendReportGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Rp.SendReport.SendReportGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Rp.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Send Report</VIEWNAME>
+    <VIEWNAMECN>¶ÔÕËµ¥·¢</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-SD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Product</SHORTNAME>
+    <NAME>Product</NAME>
+    <ID>ProductGUI</ID>
+    <DISPLAY_ORDER>5</DISPLAY_ORDER>
+    <PLUGINID>ProductGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.StaticData.Product.ProductGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Product</VIEWNAME>
+    <VIEWNAMECN>²úÆ·¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>ADM-AR</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Market</SHORTNAME>
+    <NAME>Markets</NAME>
+    <ID>MarketsGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>MarketsGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.StaticData.Markets.MarketsGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Market</VIEWNAME>
+    <VIEWNAMECN>ÊÐ³¡ÉèÖÃ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-SD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>FxSwapPosition</SHORTNAME>
+    <NAME>FxSwapPosition</NAME>
+    <ID>FxSwapPosition</ID>
+    <DISPLAY_ORDER>3</DISPLAY_ORDER>
+    <PLUGINID>FxSwapPosition</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Pn.Forx.FxSwapPosition</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Pn.dll</DLLPATH>
+    <PARAMS>&lt;Params&gt;&lt;Type&gt;PN&lt;/Type&gt;&lt;/Params&gt;</PARAMS>
+    <VIEWNAME>Forward &amp; Swap</VIEWNAME>
+    <VIEWNAMECN>Ô¶ÆÚÍ·´ç</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PM-FOREX</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>TradingInter</SHORTNAME>
+    <NAME>Trading Intermediate</NAME>
+    <ID>TradingIntermediateGUI</ID>
+    <DISPLAY_ORDER>7</DISPLAY_ORDER>
+    <PLUGINID>TradingIntermediateGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.Organization.TradingIntermediate.TradingIntermediateGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Trading Intermediate</VIEWNAME>
+    <VIEWNAMECN>½»Ò×ÖÐ½é¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-ORG</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>IntrducBrokers</SHORTNAME>
+    <NAME>IntrducingBrokers Plugin</NAME>
+    <ID>IntrducingBrokersGUI</ID>
+    <DISPLAY_ORDER>3</DISPLAY_ORDER>
+    <PLUGINID>IntrducingBrokersGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.StaticData.IntrducingBrokers.IntrducingBrokersGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Intrducing Brokers</VIEWNAME>
+    <VIEWNAMECN>¾­¼ÍÈË¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-ORG</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>CcyPair</SHORTNAME>
+    <NAME>Currency Pair</NAME>
+    <ID>CurrencyPairGUI</ID>
+    <DISPLAY_ORDER>3</DISPLAY_ORDER>
+    <PLUGINID>CurrencyPairGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.StaticData.CurrencyPair.CurrencyPairGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Pair</VIEWNAME>
+    <VIEWNAMECN>»õ±Ò¶Ô¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-SD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Deal Blotter</SHORTNAME>
+    <NAME>Deal Blotter Plugin</NAME>
+    <ID>DealBlotterGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>Matrix</PLUGINID>
+    <CLASSNAME>Atf.Pingo.Utils.UI.Matrix.Matrix</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Pingo.Utils.UI.Matrix.dll</DLLPATH>
+    <PARAMS>&lt;Args Type="File"&gt; &lt;Value&gt;control/dealBlotterMatrixConfig.xml&lt;/Value&gt; &lt;/Args&gt;</PARAMS>
+    <VIEWNAME>Deals Blotter</VIEWNAME>
+    <VIEWNAMECN>½»Ò×²¾</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Document Blotter</SHORTNAME>
+    <NAME>Document Blotter Plugin</NAME>
+    <ID>DocumentBlotterGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>Matrix</PLUGINID>
+    <CLASSNAME>Atf.Pingo.Utils.UI.Matrix.Matrix</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Pingo.Utils.UI.Matrix.dll</DLLPATH>
+    <PARAMS>&lt;Args Type="File"&gt; &lt;Value&gt;control/matrixDocumentBlotter.xml&lt;/Value&gt; &lt;/Args&gt;</PARAMS>
+    <VIEWNAME>Document Blotter</VIEWNAME>
+    <VIEWNAMECN>ÎÄµµµÇ¼Ç²¾</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DOC</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>CurrencyRate</SHORTNAME>
+    <NAME>CurrencyRate Plugin</NAME>
+    <ID>CurrencyRateGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>CurrencyRateGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.MarketData.CurrencyRate.CurrencyRateGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Currency Rate</VIEWNAME>
+    <VIEWNAMECN>ÕÛËãÂÊ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-MD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>User</SHORTNAME>
+    <NAME>User Plugin</NAME>
+    <ID>UserGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>UserGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Utilities.Administrator.User.UserGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Utilities.dll</DLLPATH>
+    <PARAMS>&lt;Args Type="File"&gt; &lt;Value&gt;matrixConfig.xml&lt;/Value&gt; &lt;/Args&gt; </PARAMS>
+    <VIEWNAME>User</VIEWNAME>
+    <VIEWNAMECN>ÓÃ»§¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>ADM-AR</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Role</SHORTNAME>
+    <NAME>Role Plugin</NAME>
+    <ID>RoleGUI</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>RoleGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Utilities.UserManagement.Role.RoleGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Utilities.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Role</VIEWNAME>
+    <VIEWNAMECN>½ÇÉ«¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>ADM-AR</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Folder</SHORTNAME>
+    <NAME>Folder Plugin</NAME>
+    <ID>FolderGUI</ID>
+    <DISPLAY_ORDER>10</DISPLAY_ORDER>
+    <PLUGINID>FolderGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.StaticData.Folder.FolderGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Folder</VIEWNAME>
+    <VIEWNAMECN>ÒµÎñµ¥Ôª¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-SD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Institution</SHORTNAME>
+    <NAME>Institution Plugin</NAME>
+    <ID>InstitutionGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>InstitutionGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.StaticData.Institution.InstitutionGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Third Parties</VIEWNAME>
+    <VIEWNAMECN>µÚÈý·½»ú¹¹¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-ORG</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Currencies</SHORTNAME>
+    <NAME>Currencies Plugin</NAME>
+    <ID>CurrenciesGUI</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>CurrenciesGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.StaticData.Currency.CurrencyGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Currency</VIEWNAME>
+    <VIEWNAMECN>»õ±Ò¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-SD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>TimeBand</SHORTNAME>
+    <NAME>TimeBand Plugin</NAME>
+    <ID>TimeBandGUI</ID>
+    <DISPLAY_ORDER>9</DISPLAY_ORDER>
+    <PLUGINID>TimeBandGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.StaticData.TimeBand.TimeBandGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Time Band</VIEWNAME>
+    <VIEWNAMECN>Ê±¼äÇø¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-SD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Risk Manager</SHORTNAME>
+    <NAME>Risk Manager Plugin</NAME>
+    <ID>RiskManagerGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>RiskManagerGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Utilities.Administrator.Setup.SetupGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Utilities.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Risk Manager</VIEWNAME>
+    <VIEWNAMECN>·çÏÕ¹ÜÀíÅäÖÃ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-AC</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Limit Coverage</SHORTNAME>
+    <NAME>Limit Coverage Plugin</NAME>
+    <ID>LimitCoverageGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>LimitCoverageGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Rk.CreditLimit.LimitCoverage.LimitCoverageGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Rk.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Limit Coverage</VIEWNAME>
+    <VIEWNAMECN>Ô¤¶¨Òå¶î¶È</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM-CL</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Limit Definition</SHORTNAME>
+    <NAME>Limit Definition Plugin</NAME>
+    <ID>LimitDefinitionGUI</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>LimitDefinitionGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Rk.CreditLimit.LimitDefinition.LimitDefinitionGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Rk.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Limit Definition</VIEWNAME>
+    <VIEWNAMECN>ÐÅÓÃ¶î¶È¶¨Òå</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM-CL</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Instrument Risk</SHORTNAME>
+    <NAME>Instrument Risk Plugin</NAME>
+    <ID>InstrumentRiskGUI</ID>
+    <DISPLAY_ORDER>3</DISPLAY_ORDER>
+    <PLUGINID>InstrumentRiskGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Rk.CreditLimit.InstrumentRiskFactor.InstrumentRiskFactoryUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Rk.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Instrument Risk Factor</VIEWNAME>
+    <VIEWNAMECN>²úÆ··çÏÕÒò×Ó</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM-CL</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>CL Monitor</SHORTNAME>
+    <NAME>Credit Limit Monitor Plugin</NAME>
+    <ID>CreditLimitMonitorGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>CreditLimitMonitorGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Rk.LimitMonitor.CreditLimit.CreditLimitGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Rk.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Credit Limit Monitor</VIEWNAME>
+    <VIEWNAMECN>¶î¶È¼à¿Ø</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM-LM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>FWDUndueStatisticsReport</SHORTNAME>
+    <NAME>FWDUndueStatisticsReport</NAME>
+    <ID>FWDUndueStatisticsReportGUI</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>FWDUndueStatisticsReportGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Rp.SAFE.FWDUndueStatisticsBatch.FWDUndueStatisticsReport</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Rp.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>FWDUndueStatisticsReport</VIEWNAME>
+    <VIEWNAMECN>ÒøÐÐÎ´µ½ÆÚÔ¶ÆÚ½áÊÛ»ãÍ³¼Æ±í</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>PositionDailyReport</SHORTNAME>
+    <NAME>PositionDailyReport</NAME>
+    <ID>PositionDailyReportGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>PositionDailyReportGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Rp.SAFE.PositionDailyReportBatch.PositionDailyReport</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Rp.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>PositionDailyReport</VIEWNAME>
+    <VIEWNAMECN>ÒøÐÐ½áÊÛ»ã×ÛºÏÍ·´çÈÕ±¨±í</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>FWDStatisticsBatchReport</SHORTNAME>
+    <NAME>FWDStatisticsBatchReport</NAME>
+    <ID>FWDStatisticsBatchReporttGUI</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>FWDStatisticsBatchReportGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Rp.SAFE.FWDStatisticsBatch.FWDStatisticsBatchReport</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Rp.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>FWDStatisticsBatchReport</VIEWNAME>
+    <VIEWNAMECN>ÒøÐÐÔ¶ÆÚ½áÊÛ»ãÍ³¼Æ±í</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>CMTMRevaluation</SHORTNAME>
+    <NAME>CMTMRevaluation</NAME>
+    <ID>CMTMGUI</ID>
+    <DISPLAY_ORDER>4</DISPLAY_ORDER>
+    <PLUGINID>CMTMGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Pn.CMTMRevaluation.CMTMGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Pn.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Collateral</VIEWNAME>
+    <VIEWNAMECN>ÊÖ¶¯ÖØ¹À</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PM-RT</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>ProfitContributionReport</SHORTNAME>
+    <NAME>Customer ProfitContributionReport</NAME>
+    <ID>ContributionReportGUI</ID>
+    <DISPLAY_ORDER>7</DISPLAY_ORDER>
+    <PLUGINID>ContributionReportGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Rp.CustomerProfit.ContributionGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Rp.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Customer Profitabilities</VIEWNAME>
+    <VIEWNAMECN>¿Í»§ÀûÈó¹±Ï×¶È</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM-LM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Workspace Tmpl</SHORTNAME>
+    <NAME>Workspace Template Plugin</NAME>
+    <ID>WorkspaceTemplateGUI</ID>
+    <DISPLAY_ORDER>3</DISPLAY_ORDER>
+    <PLUGINID>WorkspaceTemplateGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Utilities.Administrator.WorkspaceTemplate.WorkspaceTemplateGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Utilities.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Workspace Template</VIEWNAME>
+    <VIEWNAMECN>¹¤×÷ÇøÄ£°å</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>ADM-AR</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Posting Blotter</SHORTNAME>
+    <NAME>Posting Blotter Plugin</NAME>
+    <ID>PostingBlotterGUI</ID>
+    <DISPLAY_ORDER>6</DISPLAY_ORDER>
+    <PLUGINID>Matrix</PLUGINID>
+    <CLASSNAME>Atf.Pingo.Utils.UI.Matrix.Matrix</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Pingo.Utils.UI.Matrix.dll</DLLPATH>
+    <PARAMS>&lt;Args Type="File"&gt; &lt;Value&gt;control/PostingBlotter.xml&lt;/Value&gt; &lt;/Args&gt;</PARAMS>
+    <VIEWNAME>Journal Entries</VIEWNAME>
+    <VIEWNAMECN>»á¼Æ·ÖÂ¼²¾</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>SM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>FolderGroup1</SHORTNAME>
+    <NAME>FolderGroup</NAME>
+    <ID>FolderGroupGUI</ID>
+    <DISPLAY_ORDER>60</DISPLAY_ORDER>
+    <PLUGINID>FolderGroupGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.StaticData.Folder.FolderGroupGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>FolderGroup</VIEWNAME>
+    <VIEWNAMECN>FolderGroup</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-SD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>AcctHierarchy</SHORTNAME>
+    <NAME>Account Hierarchy</NAME>
+    <ID>AcctHierarchyGUI</ID>
+    <DISPLAY_ORDER>13</DISPLAY_ORDER>
+    <PLUGINID>AcctHierarchyGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.AccountData.AcctHierarchy.AcctHierarchyGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Account Hierarchy GUI</VIEWNAME>
+    <VIEWNAMECN>¿ÆÄ¿³¤¶È</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-SD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Account Ledger</SHORTNAME>
+    <NAME>Account Ledger Plugin</NAME>
+    <ID>AcctLedgerGUI</ID>
+    <DISPLAY_ORDER>20</DISPLAY_ORDER>
+    <PLUGINID>AcctLedgerGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.AccountData.AcctLedger.AcctLedgerGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Balance Sheet</VIEWNAME>
+    <VIEWNAMECN>¿ÆÄ¿Óà¶î²éÑ¯</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>SM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>AcctTable</SHORTNAME>
+    <NAME>Account Table</NAME>
+    <ID>AcctTableGUI</ID>
+    <DISPLAY_ORDER>12</DISPLAY_ORDER>
+    <PLUGINID>AcctTableGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.AccountData.AcctTable.AcctTableGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Chart of Accounts</VIEWNAME>
+    <VIEWNAMECN>¿ÆÄ¿²éÑ¯</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>SM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>BranchFxPL</SHORTNAME>
+    <NAME>BranchFxPL Plugin</NAME>
+    <ID>BranchFxPLGUI</ID>
+    <DISPLAY_ORDER>12</DISPLAY_ORDER>
+    <PLUGINID>Matrix</PLUGINID>
+    <CLASSNAME>Atf.Pingo.Utils.UI.Matrix.Matrix</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.pingo.Utils.UI.Matrix.dll</DLLPATH>
+    <PARAMS>&lt;Args Type="File"&gt;&lt;Value&gt;control/BranchFxPLMatrixConfig.xml&lt;/Value&gt;&lt;/Args&gt;</PARAMS>
+    <VIEWNAME>Branch Fixed Profit and Loss</VIEWNAME>
+    <VIEWNAMECN>·ÖÐÐ¼äËðÒæ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>FXMSReport</SHORTNAME>
+    <NAME>FXMSReport Plugin</NAME>
+    <ID>FXMSReportGUI</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>FXMSReportGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Rp.FXMSReport.FXMSReportGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Rp.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>FXMSReport Management</VIEWNAME>
+    <VIEWNAMECN>±¨±í¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RP</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>FxPLHist Blotter</SHORTNAME>
+    <NAME>FxPLHist Blotter Plugin</NAME>
+    <ID>FxPLHistBollterGUI</ID>
+    <DISPLAY_ORDER>12</DISPLAY_ORDER>
+    <PLUGINID>Matrix</PLUGINID>
+    <CLASSNAME>Atf.Pingo.Utils.UI.Matrix.Matrix</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Pingo.Utils.UI.Matrix.dll</DLLPATH>
+    <PARAMS>&lt;Args Type="File"&gt;&lt;Value&gt;control/FXPLHistBlotterMatrixConfig.xml&lt;/Value&gt;&lt;/Args&gt;</PARAMS>
+    <VIEWNAME>FxPLHist Blotter</VIEWNAME>
+    <VIEWNAMECN>ÀúÊ·ËðÒæ·ÖÎö</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>NewFolder</SHORTNAME>
+    <NAME>NewFolder</NAME>
+    <ID>NewFolderGUI</ID>
+    <DISPLAY_ORDER>99</DISPLAY_ORDER>
+    <PLUGINID>NewFolderGUI</PLUGINID>
+    <CLASSNAME>ATFUI.Form1</CLASSNAME>
+    <DLLPATH>./Plugin/ATFUI.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>NewFolder</VIEWNAME>
+    <VIEWNAMECN>NewFolder</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>DealDetailLogGUI</SHORTNAME>
+    <NAME>DealDetailLogGUI</NAME>
+    <ID>DealDetailLogGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>DealDetailLogGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DealManager.DealLog.DealDetailLogGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Tm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>DealDetailLog</VIEWNAME>
+    <VIEWNAMECN>½»Ò×ÈÕÖ¾²éÑ¯</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>PostingLog1</SHORTNAME>
+    <NAME>Posting Log Plugin</NAME>
+    <ID>PostingLogGUI</ID>
+    <DISPLAY_ORDER>30</DISPLAY_ORDER>
+    <PLUGINID>Matrix</PLUGINID>
+    <CLASSNAME>Atf.Pingo.Utils.UI.Matrix.Matrix</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Pingo.Utils.UI.Matrix.dll</DLLPATH>
+    <PARAMS>&lt;Args Type="File"&gt;&lt;Value&gt;control/PostingLog.xml&lt;/Value&gt;&lt;/Args&gt;</PARAMS>
+    <VIEWNAME>Journal Entries Audit</VIEWNAME>
+    <VIEWNAMECN>»á¼Æ·ÖÂ¼ÈÕÖ¾²éÑ¯</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>SM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>PostingDetail Log</SHORTNAME>
+    <NAME>PostingDetail Log Plugin</NAME>
+    <ID>PostingDetailLogGUI</ID>
+    <DISPLAY_ORDER>7</DISPLAY_ORDER>
+    <PLUGINID>PostingDetailLogGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.AcctManager.PostingLog.PostingDetailLogGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Tm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Posting Audit</VIEWNAME>
+    <VIEWNAMECN>»á¼Æ·ÖÂ¼ÈÕÖ¾·ÖÒ³²éÑ¯</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>SM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>MsgCenter</SHORTNAME>
+    <NAME>MessageCenter</NAME>
+    <ID>MsgCenterGUI</ID>
+    <DISPLAY_ORDER>12</DISPLAY_ORDER>
+    <PLUGINID>MsgCenterGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Utilities.MsgCenter.MsgCenterGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Utilities.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>MsgCenter</VIEWNAME>
+    <VIEWNAMECN>ÏûÏ¢ÖÐÐÄ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>ADM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>FxTotal Pos</SHORTNAME>
+    <NAME>Cross Position Plugin</NAME>
+    <ID>FxSpotTotalPositionGUI</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>FxSpotTotalPositionGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Pn.Forex.FxSpotPosition.FxSpotTotalPositionGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Pn.dll</DLLPATH>
+    <PARAMS>1</PARAMS>
+    <VIEWNAME>Cross Position</VIEWNAME>
+    <VIEWNAMECN>Íâ»ã»ã×ÜÍ·´ç</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PM-FOREX</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Check Accounts</SHORTNAME>
+    <NAME>Check Accounts Plugin</NAME>
+    <ID>OpicsBatch</ID>
+    <DISPLAY_ORDER>21</DISPLAY_ORDER>
+    <PLUGINID>OpicsBatchGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.OpicsBatch.OpicsBatchGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Tm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Check Accounts</VIEWNAME>
+    <VIEWNAMECN>ÊÖ¹¤¶ÔÕÊ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>SM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Deal Blotter Ex1</SHORTNAME>
+    <NAME>Deal Blotter Plugin Ex1</NAME>
+    <ID>DealBlotterGUIEx1</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>Matrix</PLUGINID>
+    <CLASSNAME>Atf.Pingo.Utils.UI.Matrix.Matrix</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Pingo.Utils.UI.Matrix.dll</DLLPATH>
+    <PARAMS>&lt;Args Type="File"&gt; &lt;Value&gt;control/dealBlotterMatrixConfig.xml&lt;/Value&gt; &lt;/Args&gt;</PARAMS>
+    <VIEWNAME>Deal Blotter Ex1</VIEWNAME>
+    <VIEWNAMECN>½»Ò×±¡Ex1</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Posting Log</SHORTNAME>
+    <NAME>Posting Log Plugin</NAME>
+    <ID>PostingLogGUI</ID>
+    <DISPLAY_ORDER>7</DISPLAY_ORDER>
+    <PLUGINID>Matrix</PLUGINID>
+    <CLASSNAME>Atf.Pingo.Uitls.UI.Matrix.Matrix</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Pingo.Utils.UI.Matrix.dll</DLLPATH>
+    <PARAMS>&lt;Args Type="File"&gt;&lt;Value&gt;control/PostingLog.xml&lt;/Value&gt;&lt;/Args&gt;</PARAMS>
+    <VIEWNAME>Journal Entries Audit</VIEWNAME>
+    <VIEWNAMECN>»á¼Æ·ÖÂ¼ÈÕÖ¾</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>SM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Portfolio</SHORTNAME>
+    <NAME>Portfolio</NAME>
+    <ID>PortfolioGUI</ID>
+    <DISPLAY_ORDER>11</DISPLAY_ORDER>
+    <PLUGINID>PortfolioGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.StaticData.Portfolio.PortfolioGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Portfolio</VIEWNAME>
+    <VIEWNAMECN>Í¶×é¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-SD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>EF Log</SHORTNAME>
+    <NAME>Expected Flow Log Plugin</NAME>
+    <ID>ExpectedFlowLogGUI</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>Matrix</PLUGINID>
+    <CLASSNAME>Atf.Pingo.Utils.UI.Matrix.Matrix</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Pingo.Utils.UI.Matrix.dll</DLLPATH>
+    <PARAMS>&lt;Args Type="File"&gt; &lt;Value&gt;control/expectedFlowLogMatrixConfig.xml&lt;/Value&gt; &lt;/Args&gt; </PARAMS>
+    <VIEWNAME>Expected Flow Log</VIEWNAME>
+    <VIEWNAMECN>Ó¦ÊÕÓ¦¸¶²éÑ¯</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>SM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>FolderGroup</SHORTNAME>
+    <NAME>FolderGroup</NAME>
+    <ID>FolderGroupGUI</ID>
+    <DISPLAY_ORDER>60</DISPLAY_ORDER>
+    <PLUGINID>FolderGroupGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.StaticData.Folder.FolderGroupGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>FolderGroup</VIEWNAME>
+    <VIEWNAMECN>Í¶×é¹ÜÀí</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-SD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Cashflow</SHORTNAME>
+    <NAME>Cashflow</NAME>
+    <ID>Cashflow</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>Cashflow</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Rk.LiquidityManagement.CashflowGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Rk.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Cash Flow</VIEWNAME>
+    <VIEWNAMECN>ÏÖ½ðÁ÷ºÍÈ±¿Ú·ÖÎö</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM-LIM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>FuturesCodeRate</SHORTNAME>
+    <NAME>FuturesCode Rate</NAME>
+    <ID>FuturesCodePriceGUI</ID>
+    <DISPLAY_ORDER>3</DISPLAY_ORDER>
+    <PLUGINID>FuturesCodePriceGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.MarketData.FuturesRate.FuturesCodePriceGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>q</PARAMS>
+    <VIEWNAME>Futures Rate</VIEWNAME>
+    <VIEWNAMECN>ÉÌÆ·ÆÚ»õ½áËã¼ÛÉèÖÃ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-MD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>OptionsCodeRate</SHORTNAME>
+    <NAME>OptionsCodeRate</NAME>
+    <ID>OptionsCodePriceGUI</ID>
+    <DISPLAY_ORDER>4</DISPLAY_ORDER>
+    <PLUGINID>OptionsCodePriceGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DataManager.MarketData.OptionsRate.OptionsCodePriceGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Dm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Options Rate </VIEWNAME>
+    <VIEWNAMECN>ÉÌÆ·ÆÚÈ¨½áËã¼ÛÉèÖÃ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>DM-MD</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>SLLimitDef</SHORTNAME>
+    <NAME>Settlement Limit Definition</NAME>
+    <ID>SLimitDefinitionGUI</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>SLimitDefinitionGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Rk.SettlementLimit.SLimitDefinition.SLimitDefinitionGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.RK.dll</DLLPATH>
+    <PARAMS>SLimitDefinitionGUI</PARAMS>
+    <VIEWNAME>Limit Definition</VIEWNAME>
+    <VIEWNAMECN>¶î¶È¶¨Òå</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM-SL</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>StopLossLimit</SHORTNAME>
+    <NAME>Stop-Loss Limit</NAME>
+    <ID>StopLossLimitGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>StopLossLimitGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Rk.RiskManager.StopLossLimit.StopLossLimitGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Rk.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Stop-Loss Limit</VIEWNAME>
+    <VIEWNAMECN>Ö¹Ëð¶î¶ÈÉèÖÃ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM-SLL</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>MarginMonitor</SHORTNAME>
+    <NAME>CFETS MarginMonitor</NAME>
+    <ID>MarginMonitorGUI</ID>
+    <DISPLAY_ORDER>3</DISPLAY_ORDER>
+    <PLUGINID>MarginMonitorGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Margin.PositionGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Margin.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>CFETS Margin Monitor</VIEWNAME>
+    <VIEWNAMECN>CFETS±£Ö¤½ðÏÞ¶î¼à¿Ø</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM-LM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>UsedLimitReport</SHORTNAME>
+    <NAME>Used Limit Report</NAME>
+    <ID>UsedLimitReportGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>UsedLimitReportGUI</PLUGINID>
+    <CLASSNAME>UsedLimitReportGUI</CLASSNAME>
+    <DLLPATH>UsedLimitReportGUI</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Used Limits Report</VIEWNAME>
+    <VIEWNAMECN>¶î¶ÈÊ¹ÓÃÇé¿ö²éÑ¯</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM-LR</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>CLReprot</SHORTNAME>
+    <NAME>Credit Limit Report</NAME>
+    <ID>CreditLimitReportGUI</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>CreditLimitReportGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Rp.CreditLimit.ReportCreditLimit.CReportFormGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Rp.dll</DLLPATH>
+    <PARAMS>CreditLimitReportGUI</PARAMS>
+    <VIEWNAME>Credit Limits Report</VIEWNAME>
+    <VIEWNAMECN>¿ÉÊÍ·Å¶î¶ÈÇé¿ö²éÑ¯</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM-LR</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>Welcome</SHORTNAME>
+    <NAME>Welcome</NAME>
+    <ID>WelcomeGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>WelcomeGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Utilities.Welcome.WelcomeForm</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Utilities.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Welcome</VIEWNAME>
+    <VIEWNAMECN>»¶Ó­</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>ADM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>EF Blotter</SHORTNAME>
+    <NAME>Expected Flow Blotter Plugin</NAME>
+    <ID>ExpectedFlowBlotterGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>Matrix</PLUGINID>
+    <CLASSNAME>Atf.Pingo.Utils.UI.Matrix.Matrix</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Pingo.Utils.UI.Matrix.dll</DLLPATH>
+    <PARAMS>&lt;Args Type="File"&gt;&lt;Value&gt;control/matrixExpectedFlowBlotter.xml&lt;/Value&gt;&lt;/Args&gt;</PARAMS>
+    <VIEWNAME>Expected Flow Blotter</VIEWNAME>
+    <VIEWNAMECN>Ó¦ÊÕÓ¦¸¶µÇ¼Ç²¾</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>SM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>SpotDeals</SHORTNAME>
+    <NAME>Spot Deal Capture</NAME>
+    <ID>SpotGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>SpotGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DealManager.DealCapture.Gui.SingleGUI.InsertSpotForm</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Tm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>FX Spot</VIEWNAME>
+    <VIEWNAMECN>Íâ»ã¼´ÆÚ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM-DC-F</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>ForwardDeals</SHORTNAME>
+    <NAME>Forward Deal Capture</NAME>
+    <ID>ForwardGUI</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>ForwardGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DealManager.DealCapture.Gui.SingleGUI.InsertForwardForm</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Tm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Outright Forward</VIEWNAME>
+    <VIEWNAMECN>Íâ»ãÔ¶ÆÚ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM-DC-F</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>FxSwapDeals</SHORTNAME>
+    <NAME>FxSwap Deal Capture</NAME>
+    <ID>FxSwapGUI</ID>
+    <DISPLAY_ORDER>3</DISPLAY_ORDER>
+    <PLUGINID>FxSwapGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DealManager.DealCapture.Gui.SingleGUI.InsertFxSwapForm</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Tm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>FX Swap</VIEWNAME>
+    <VIEWNAMECN>Íâ»ãµôÆÚ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM-DC-F</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>MontageUI</SHORTNAME>
+    <NAME>MontageUI</NAME>
+    <ID>MontageUI</ID>
+    <DISPLAY_ORDER>3</DISPLAY_ORDER>
+    <PLUGINID>MontageUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Blender.Monitor.MontagePanel.MontageMonitorUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Blender.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>MontageMonitor</VIEWNAME>
+    <VIEWNAMECN>¼Û¸ñ¼à¿Ø</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>BB</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>FeedStatusMonitorUI</SHORTNAME>
+    <NAME>FeedStatusMonitorUI</NAME>
+    <ID>FeedStatusMonitorUI</ID>
+    <DISPLAY_ORDER>4</DISPLAY_ORDER>
+    <PLUGINID>FeedStatusMonitorUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Blender.Monitor.FeedStatus.FeedStatusMonitorGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Blender.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>FeedStatusMonitor</VIEWNAME>
+    <VIEWNAMECN>Êý¾ÝÔ´¼à¿Ø</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>BB</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>CreditLimitMonitor</SHORTNAME>
+    <NAME>CreditLimitMonitor</NAME>
+    <ID>CreditLimitMonitorGUI</ID>
+    <DISPLAY_ORDER>3</DISPLAY_ORDER>
+    <PLUGINID>CreditLimitMonitorGUI</PLUGINID>
+    <CLASSNAME>Com.Bankcomm.Pingo.Monitor.CreditLimit.CreditLimitMonitorGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Com.Bankcomm.Pingo.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Credit Limit Monitor</VIEWNAME>
+    <VIEWNAMECN>ÐÅÓÃ¶î¶È¼à¿Ø</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RM-LM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>TabChart</SHORTNAME>
+    <NAME>TabChart</NAME>
+    <ID>TabChart</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>TabChart</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.EasyChart.TabChart</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.EasyChart.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Chart</VIEWNAME>
+    <VIEWNAMECN>ÐÐÇéÍ¼</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PB</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>RateTradeViewUI</SHORTNAME>
+    <NAME>PboxTradeUI</NAME>
+    <ID>RateTradeViewUI</ID>
+    <DISPLAY_ORDER>3</DISPLAY_ORDER>
+    <PLUGINID>RateTradeViewUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.PBox.RateTradeView.RateTradeViewUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.PBox.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>RateTrade</VIEWNAME>
+    <VIEWNAMECN>ÅÆ¼Û½»Ò×</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PB</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>NewMAccountDeal</SHORTNAME>
+    <NAME>NewMAccountDeal</NAME>
+    <ID>NewMAccountDeal</ID>
+    <DISPLAY_ORDER>111</DISPLAY_ORDER>
+    <PLUGINID>xucPositionMonitoringUI</PLUGINID>
+    <CLASSNAME>RTR.MT.demo.design.xucPositionMonitoringUI</CLASSNAME>
+    <DLLPATH>./Plugin/RTR.MT.demo.design.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>NewMAccountDeal</VIEWNAME>
+    <VIEWNAMECN>New¿ª²Ö¼à¿Ø</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>NewMAccountLog</SHORTNAME>
+    <NAME>NewMAccountLog</NAME>
+    <ID>NewMAccountLog</ID>
+    <DISPLAY_ORDER>112</DISPLAY_ORDER>
+    <PLUGINID>xucAccountHistoryUI</PLUGINID>
+    <CLASSNAME>RTR.MT.demo.design.xucAccountHistoryUI</CLASSNAME>
+    <DLLPATH>./Plugin/RTR.MT.demo.design.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>NewMAccountDeal</VIEWNAME>
+    <VIEWNAMECN>NewÕË»§ÀúÊ·</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>MAccountWatch</SHORTNAME>
+    <NAME>MAccountWatch</NAME>
+    <ID>MAccountWatch</ID>
+    <DISPLAY_ORDER>113</DISPLAY_ORDER>
+    <PLUGINID>WorkingOrdersGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DealManager.PTrade.WorkingOrdersGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Tm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>WorkingOrders</VIEWNAME>
+    <VIEWNAMECN>¹Òµ¥¼à¿Ø</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>MAccountGroupGUI</SHORTNAME>
+    <NAME>MAccountGroupGUI</NAME>
+    <ID>MAccountGroupGUI</ID>
+    <DISPLAY_ORDER>113</DISPLAY_ORDER>
+    <PLUGINID>MAccountGroupGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DealManager.PTrade.MAccountGroupGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Tm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Custom Account </VIEWNAME>
+    <VIEWNAMECN>¿Í»§ÕË»§Ô¤ÀÀ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>StopLossMonitorGUI</SHORTNAME>
+    <NAME>StopLossMonitorGUI</NAME>
+    <ID>StopLossMonitorGUI</ID>
+    <DISPLAY_ORDER>122</DISPLAY_ORDER>
+    <PLUGINID>StopLossMonitorGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DealManager.PTrade.StopLossMonitorGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Tm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>StopLossMonitor</VIEWNAME>
+    <VIEWNAMECN>Ö¹ËðÅÌ¼à¿Ø</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>FxSpotLoclPosition</SHORTNAME>
+    <NAME>FxSpotLoclPosition</NAME>
+    <ID>FxSpotLoclPositionGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>FxSpotLoclPositionGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Pn.Forex.FxSpotPosition.FxSpotLoclPositionGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Pn.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Local Position</VIEWNAME>
+    <VIEWNAMECN>»õ±ÒÍ·´ç</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PM-FOREX</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>MAccountAllDeal</SHORTNAME>
+    <NAME>MAccountAllDeal</NAME>
+    <ID>MAccountAllDealGUI</ID>
+    <DISPLAY_ORDER>124</DISPLAY_ORDER>
+    <PLUGINID>MAccountAllDealGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DealManager.PTrade.MAccountAllDealGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Tm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>DealRiskMonitor</VIEWNAME>
+    <VIEWNAMECN>½»Ò×·çÏÕ¼à¿Ø</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>MAccountDeal</SHORTNAME>
+    <NAME>MAccountDeal</NAME>
+    <ID>MAccountDealGUI</ID>
+    <DISPLAY_ORDER>121</DISPLAY_ORDER>
+    <PLUGINID>MAccountDealGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DealManager.PTrade.MAccountDealGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Tm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>MAccountDeal</VIEWNAME>
+    <VIEWNAMECN>¿ª²Ö¼à¿Ø</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>MAccountLog</SHORTNAME>
+    <NAME>MAccountLog</NAME>
+    <ID>MAccountLogGUI</ID>
+    <DISPLAY_ORDER>122</DISPLAY_ORDER>
+    <PLUGINID>MAccountLogGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.DealManager.PTrade.MAccountLogGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Tm.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>MAccountLog</VIEWNAME>
+    <VIEWNAMECN>ÕË»§ÀúÊ·</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>FxMarginRateTradeViewUI</SHORTNAME>
+    <NAME>PboxFxMarginTradeUI</NAME>
+    <ID>FxMarginRateTradeViewUI</ID>
+    <DISPLAY_ORDER>3</DISPLAY_ORDER>
+    <PLUGINID>FxMarginRateTradeViewUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.PBox.FxMarginRateTradeView.FxMarginRateTradeViewUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.PBox.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>FxMarginRateTrade</VIEWNAME>
+    <VIEWNAMECN>±£Ö¤½ðÐÐÇéÓë½»Ò×</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PB</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>PTradeReportGUI</SHORTNAME>
+    <NAME>PTradeReport GUI</NAME>
+    <ID>PTradeReport GUI</ID>
+    <DISPLAY_ORDER>4</DISPLAY_ORDER>
+    <PLUGINID>PTradeReport GUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Rp.PTrade.MAccountDeal.UI.PTradeReportGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Rp.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>PTrade Margin Deal Report</VIEWNAME>
+    <VIEWNAMECN>±£Ö¤½ð½»Ò×½áËãµ¥</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>RP</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>DataSourceMonitor</SHORTNAME>
+    <NAME>DataSourceMonitorPlugin</NAME>
+    <ID>DataSourceMonitorGUI</ID>
+    <DISPLAY_ORDER>5</DISPLAY_ORDER>
+    <PLUGINID>DataSoutceMonitorGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.PBox.BlendingBox.DataSourceMonitorGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.PBox.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>DataSourceMonitor</VIEWNAME>
+    <VIEWNAMECN>Êý¾ÝÔ´¼à¿Ø</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PB</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>SystemAlertUI</SHORTNAME>
+    <NAME>SystemAlertUI</NAME>
+    <ID>SystemAlertUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>SystemAlertUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Blender.Monitor.SystemAlert.SystemAlertUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Blender.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>System Alert</VIEWNAME>
+    <VIEWNAMECN>ÏµÍ³Ô¤¾¯</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>BB</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>ManualWeightedFactor</SHORTNAME>
+    <NAME>ManualWeightedFactorPlugin</NAME>
+    <ID>ManualWeightedFactorGUI</ID>
+    <DISPLAY_ORDER>4</DISPLAY_ORDER>
+    <PLUGINID>ManualWeightedFactorGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.PBox.BlendingBox.ManualWeightedFactorGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.PBox.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>ManualWeightedFactory</VIEWNAME>
+    <VIEWNAMECN>ÊÖ¶¯È¨ÖØÉèÖÃ</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>PB</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>FeedDefintionGUI</SHORTNAME>
+    <NAME>FeedDefintionGUI</NAME>
+    <ID>FeedDefintionGUI</ID>
+    <DISPLAY_ORDER>1</DISPLAY_ORDER>
+    <PLUGINID>FeedDefintionGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Blender.SetUp.Feed.FeedDefintionGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Blender.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>FeedDefintionGUI</VIEWNAME>
+    <VIEWNAMECN>Êý¾ÝÔ´¶¨Òå</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>BB</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>FeedDefintiionGUI</SHORTNAME>
+    <NAME>FeedDefintionGui</NAME>
+    <ID>FeedDefintion</ID>
+    <DISPLAY_ORDER>4</DISPLAY_ORDER>
+    <PLUGINID>FeedDefintionGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Test.FeedDefintionGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Test.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>FeedDefintion</VIEWNAME>
+    <VIEWNAMECN>FeedDefintion</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>TM</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+  <_x0031_0.34.4.242_MODULES>
+    <SHORTNAME>FeedGroup</SHORTNAME>
+    <NAME>FeedGroup</NAME>
+    <ID>FeedGroupGUI</ID>
+    <DISPLAY_ORDER>2</DISPLAY_ORDER>
+    <PLUGINID>FeedGroupGUI</PLUGINID>
+    <CLASSNAME>Atf.Plugin.Pingo.Blender.SetUp.Group.GroupGUI</CLASSNAME>
+    <DLLPATH>./Plugin/Atf.Plugin.Pingo.Blender.dll</DLLPATH>
+    <PARAMS>a</PARAMS>
+    <VIEWNAME>Feed Group</VIEWNAME>
+    <VIEWNAMECN>Êý¾Ý·ÖÀà</VIEWNAMECN>
+    <TYPE>M</TYPE>
+    <GROUP_SHORTNAME>BB</GROUP_SHORTNAME>
+  </_x0031_0.34.4.242_MODULES>
+</NewDataSet>

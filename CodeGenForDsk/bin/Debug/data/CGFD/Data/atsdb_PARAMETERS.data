@@ -1,0 +1,163 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="atsdb_PARAMETERS" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="atsdb_PARAMETERS">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TITLE" type="xs:string" minOccurs="0" />
+                <xs:element name="PARAMETER_NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="PARAMETER_VALUE" type="xs:string" minOccurs="0" />
+                <xs:element name="LABEL_NAME" type="xs:string" minOccurs="0" />
+                <xs:element name="PARAMETER_ORDER" type="xs:decimal" minOccurs="0" />
+                <xs:element name="COMMENTS" type="xs:string" minOccurs="0" />
+                <xs:element name="LOCATION" type="xs:string" minOccurs="0" />
+                <xs:element name="PARAMETERTYPE" type="xs:string" minOccurs="0" />
+                <xs:element name="PARAMETERVALUEKEY" type="xs:string" minOccurs="0" />
+                <xs:element name="PARAMETERVALUETYPE" type="xs:string" minOccurs="0" />
+                <xs:element name="PARAMETERVALUEREADONLY" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <atsdb_PARAMETERS>
+    <TITLE>·çÏÕ¹ÜÀí</TITLE>
+    <PARAMETER_NAME>revaluation_rate</PARAMETER_NAME>
+    <PARAMETER_VALUE>M</PARAMETER_VALUE>
+    <LABEL_NAME>ÖØ¹À¼ÛÉèÖÃ</LABEL_NAME>
+    <PARAMETER_ORDER>3</PARAMETER_ORDER>
+    <COMMENTS>MÊÖ¶¯£¬R×Ô¶¯</COMMENTS>
+    <LOCATION>PINGO</LOCATION>
+    <PARAMETERTYPE>S</PARAMETERTYPE>
+    <PARAMETERVALUEKEY>RevaluationRate</PARAMETERVALUEKEY>
+    <PARAMETERVALUETYPE>ADBCHOICES</PARAMETERVALUETYPE>
+    <PARAMETERVALUEREADONLY>N</PARAMETERVALUEREADONLY>
+  </atsdb_PARAMETERS>
+  <atsdb_PARAMETERS>
+    <TITLE>½»Ò×¹ÜÀí</TITLE>
+    <PARAMETER_NAME>IsBranch</PARAMETER_NAME>
+    <PARAMETER_VALUE>Y</PARAMETER_VALUE>
+    <LABEL_NAME>½»Ò×Ä£Ê½</LABEL_NAME>
+    <PARAMETER_ORDER>1</PARAMETER_ORDER>
+    <COMMENTS>Y×Ü·Ö½»Ò×Ä£Ê½,NÒøÐÐ¼ä½»Ò×Ä£Ê½</COMMENTS>
+    <LOCATION>PINGO</LOCATION>
+    <PARAMETERTYPE>S</PARAMETERTYPE>
+    <PARAMETERVALUETYPE>BOOL</PARAMETERVALUETYPE>
+    <PARAMETERVALUEREADONLY>Y</PARAMETERVALUEREADONLY>
+  </atsdb_PARAMETERS>
+  <atsdb_PARAMETERS>
+    <TITLE>MarginParameters</TITLE>
+    <PARAMETER_NAME>NettingAmount</PARAMETER_NAME>
+    <PARAMETER_VALUE>20,000,000.</PARAMETER_VALUE>
+    <PARAMETER_ORDER>0</PARAMETER_ORDER>
+    <COMMENTS>TEST1</COMMENTS>
+    <LOCATION>PINGO</LOCATION>
+    <PARAMETERTYPE>C</PARAMETERTYPE>
+  </atsdb_PARAMETERS>
+  <atsdb_PARAMETERS>
+    <TITLE>MarginParameters</TITLE>
+    <PARAMETER_NAME>ExchangeRateFactor</PARAMETER_NAME>
+    <PARAMETER_VALUE>V</PARAMETER_VALUE>
+    <PARAMETER_ORDER>0</PARAMETER_ORDER>
+    <COMMENTS>TEST2</COMMENTS>
+    <LOCATION>PINGO</LOCATION>
+    <PARAMETERTYPE>C</PARAMETERTYPE>
+  </atsdb_PARAMETERS>
+  <atsdb_PARAMETERS>
+    <TITLE>MarginParameters</TITLE>
+    <PARAMETER_NAME>CreditFactor</PARAMETER_NAME>
+    <PARAMETER_VALUE>2.</PARAMETER_VALUE>
+    <PARAMETER_ORDER>0</PARAMETER_ORDER>
+    <COMMENTS>TEST3</COMMENTS>
+    <LOCATION>PINGO</LOCATION>
+    <PARAMETERTYPE>C</PARAMETERTYPE>
+  </atsdb_PARAMETERS>
+  <atsdb_PARAMETERS>
+    <TITLE>MarginParameters</TITLE>
+    <PARAMETER_NAME>Tolerance</PARAMETER_NAME>
+    <PARAMETER_VALUE>0.1</PARAMETER_VALUE>
+    <PARAMETER_ORDER>0</PARAMETER_ORDER>
+    <LOCATION>PINGO</LOCATION>
+    <PARAMETERTYPE>C</PARAMETERTYPE>
+  </atsdb_PARAMETERS>
+  <atsdb_PARAMETERS>
+    <TITLE>MarginParameters</TITLE>
+    <PARAMETER_NAME>InitialMarginFormula</PARAMETER_NAME>
+    <PARAMETER_VALUE>(Netting Amount)*RF*CF*2*(1+Tolerance)</PARAMETER_VALUE>
+    <LOCATION>PINGO</LOCATION>
+    <PARAMETERTYPE>C</PARAMETERTYPE>
+  </atsdb_PARAMETERS>
+  <atsdb_PARAMETERS>
+    <TITLE>MarginParameters</TITLE>
+    <PARAMETER_NAME>VariationMarginFormula</PARAMETER_NAME>
+    <PARAMETER_VALUE>MAX((sum(abs(Netting Amount))-(Netting Amount))*(Rate Factor),0)</PARAMETER_VALUE>
+    <LOCATION>PINGO</LOCATION>
+    <PARAMETERTYPE>C</PARAMETERTYPE>
+  </atsdb_PARAMETERS>
+  <atsdb_PARAMETERS>
+    <TITLE>·çÏÕ¹ÜÀí</TITLE>
+    <PARAMETER_NAME>PostCreditChecking</PARAMETER_NAME>
+    <PARAMETER_VALUE>Y</PARAMETER_VALUE>
+    <LABEL_NAME>¶î¶ÈÄ£¿é</LABEL_NAME>
+    <PARAMETER_ORDER>1</PARAMETER_ORDER>
+    <COMMENTS>YÆôÓÃ¶î¶ÈÄ£¿é,N²»ÆôÓÃ¶î¶ÈÄ£¿é</COMMENTS>
+    <LOCATION>PINGO</LOCATION>
+    <PARAMETERTYPE>S</PARAMETERTYPE>
+    <PARAMETERVALUETYPE>BOOL</PARAMETERVALUETYPE>
+    <PARAMETERVALUEREADONLY>N</PARAMETERVALUEREADONLY>
+  </atsdb_PARAMETERS>
+  <atsdb_PARAMETERS>
+    <TITLE>·çÏÕ¹ÜÀí</TITLE>
+    <PARAMETER_NAME>conversion_rate</PARAMETER_NAME>
+    <PARAMETER_VALUE>R</PARAMETER_VALUE>
+    <LABEL_NAME>ÕÛËãÂÊÉèÖÃ</LABEL_NAME>
+    <PARAMETER_ORDER>2</PARAMETER_ORDER>
+    <COMMENTS>MÊÖ¶¯,R×Ô¶¯</COMMENTS>
+    <LOCATION>PINGO</LOCATION>
+    <PARAMETERTYPE>S</PARAMETERTYPE>
+    <PARAMETERVALUEKEY>ConversationRate</PARAMETERVALUEKEY>
+    <PARAMETERVALUETYPE>ADBCHOICES</PARAMETERVALUETYPE>
+    <PARAMETERVALUEREADONLY>N</PARAMETERVALUEREADONLY>
+  </atsdb_PARAMETERS>
+  <atsdb_PARAMETERS>
+    <TITLE>·çÏÕ¹ÜÀí</TITLE>
+    <PARAMETER_NAME>CreditLimitCheckDays</PARAMETER_NAME>
+    <PARAMETER_VALUE>30</PARAMETER_VALUE>
+    <LABEL_NAME>¶î¶Èµ½ÆÚÌáÐÑ</LABEL_NAME>
+    <PARAMETER_ORDER>4</PARAMETER_ORDER>
+    <COMMENTS>¶î¶Èµ½ÆÚÌáÐÑ¼ì²éÌìÊý</COMMENTS>
+    <LOCATION>PINGO</LOCATION>
+    <PARAMETERTYPE>S</PARAMETERTYPE>
+    <PARAMETERVALUETYPE>UINT</PARAMETERVALUETYPE>
+    <PARAMETERVALUEREADONLY>N</PARAMETERVALUEREADONLY>
+  </atsdb_PARAMETERS>
+  <atsdb_PARAMETERS>
+    <TITLE>½»Ò×¹ÜÀí</TITLE>
+    <PARAMETER_NAME>ForwardDealCheckDays</PARAMETER_NAME>
+    <PARAMETER_VALUE>30</PARAMETER_VALUE>
+    <LABEL_NAME>Ô¶ÆÚ½»Ò×µ½ÆÚÌáÐÑ</LABEL_NAME>
+    <PARAMETER_ORDER>2</PARAMETER_ORDER>
+    <COMMENTS>Ô¶ÆÚ½»Ò×µ½ÆÚÌáÐÑ¼ì²éÌìÊý</COMMENTS>
+    <LOCATION>PINGO</LOCATION>
+    <PARAMETERTYPE>S</PARAMETERTYPE>
+    <PARAMETERVALUETYPE>UINT</PARAMETERVALUETYPE>
+    <PARAMETERVALUEREADONLY>N</PARAMETERVALUEREADONLY>
+  </atsdb_PARAMETERS>
+  <atsdb_PARAMETERS>
+    <TITLE>ÅÆ¼Û¹ÜÀí</TITLE>
+    <PARAMETER_NAME>SendServiceName</PARAMETER_NAME>
+    <PARAMETER_VALUE>CALPUB</PARAMETER_VALUE>
+    <LABEL_NAME>·þÎñÃû³Æ</LABEL_NAME>
+    <PARAMETER_ORDER>1</PARAMETER_ORDER>
+    <COMMENTS>ÅäÖÃÈ¨ÖØ´¦ÀíºóÐèÒª·¢²¼µ½ÄÄÒ»¸ö·þÎñÃû³ÆÉÏ</COMMENTS>
+    <LOCATION>PINGO</LOCATION>
+    <PARAMETERTYPE>S</PARAMETERTYPE>
+    <PARAMETERVALUETYPE>TEXT</PARAMETERVALUETYPE>
+    <PARAMETERVALUEREADONLY>Y</PARAMETERVALUEREADONLY>
+  </atsdb_PARAMETERS>
+</NewDataSet>

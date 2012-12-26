@@ -1,0 +1,16 @@
+C:\Users\kong\Desktop\ShangQi\Client\CodeGenForDsk\bin\Release\CodeGenForDsk.exe
+C:\Users\kong\Desktop\ShangQi\Client\CodeGenForDsk\bin\Release\CodeGenForDsk.pdb
+C:\Users\kong\Desktop\ShangQi\Client\CodeGenForDsk\bin\Release\Interop.Word.dll
+C:\Users\kong\Desktop\ShangQi\Client\CodeGenForDsk\bin\Release\office.dll
+C:\Users\kong\Desktop\ShangQi\Client\CodeGenForDsk\bin\Release\Microsoft.Vbe.Interop.dll
+C:\Users\kong\Desktop\ShangQi\Client\CodeGenForDsk\obj\Release\ResolveAssemblyReference.cache
+C:\Users\kong\Desktop\ShangQi\Client\CodeGenForDsk\obj\Release\CodeGenForDsk.CodeGenForDsk.CodeGenForDskGui.resources
+C:\Users\kong\Desktop\ShangQi\Client\CodeGenForDsk\obj\Release\CodeGenForDsk.CodeGenForDsk.DBConfigForm.resources
+C:\Users\kong\Desktop\ShangQi\Client\CodeGenForDsk\obj\Release\CodeGenForDsk.CodeGenForDsk.FxCop.FxCopAnalyzeForm.resources
+C:\Users\kong\Desktop\ShangQi\Client\CodeGenForDsk\obj\Release\CodeGenForDsk.CodeGenForDsk.ModelForm.resources
+C:\Users\kong\Desktop\ShangQi\Client\CodeGenForDsk\obj\Release\CodeGenForDsk.CodeGenForm.resources
+C:\Users\kong\Desktop\ShangQi\Client\CodeGenForDsk\obj\Release\CodeGenForDsk.Properties.Resources.resources
+C:\Users\kong\Desktop\ShangQi\Client\CodeGenForDsk\obj\Release\CodeGenForDsk.csproj.GenerateResource.Cache
+C:\Users\kong\Desktop\ShangQi\Client\CodeGenForDsk\obj\Release\CodeGenForDsk.exe.licenses
+C:\Users\kong\Desktop\ShangQi\Client\CodeGenForDsk\obj\Release\CodeGenForDsk.exe
+C:\Users\kong\Desktop\ShangQi\Client\CodeGenForDsk\obj\Release\CodeGenForDsk.pdb

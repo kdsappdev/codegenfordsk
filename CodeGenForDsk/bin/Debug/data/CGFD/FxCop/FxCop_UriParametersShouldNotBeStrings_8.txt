@@ -1,0 +1,9 @@
+Uri 参数不应该是string类型的
+Atf.Pingo.Utils.UI.Base.DataService
+Atf.Pingo.Utils.UI.WebService.DateServiceHelp
+Atf.Utils.WebServiceHelper
+Ats.Pingo.BaseServer.ServersHelper
+Ats.Pingo.Utilites.MenuBuilder.MenuBuilderServer
+Atf.Plugin.Pingo.Var.DataSource
+Atf.Plugin.SSO.RET.RETWebBrowserGUI
+Ats.Plugin.SSO.RET.RETOpenIE

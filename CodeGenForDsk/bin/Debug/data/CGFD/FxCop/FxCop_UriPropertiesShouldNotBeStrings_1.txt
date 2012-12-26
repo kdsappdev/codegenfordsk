@@ -1,0 +1,2 @@
+Uri 属性不应该是string类型的
+Atf.Pingo.Utils.UI.WebService.DateServiceHelp
